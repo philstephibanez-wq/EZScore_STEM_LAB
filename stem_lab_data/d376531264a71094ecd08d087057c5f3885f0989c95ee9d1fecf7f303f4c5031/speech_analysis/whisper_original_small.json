@@ -1,0 +1,669 @@
+{
+  "engine": "openai-whisper",
+  "model": "small",
+  "source": "original",
+  "language": "fr",
+  "text": "Tendre la neige, tu ne viendras pas ce soir Tendre la neige et mon cœur s'habille de moi Ce soyeux cortège, tout en larmes blanches Loiseaux sur la branche, fleur le sort il est jeu Tu ne viendras pas ce soir, crie mon désespoir Mets-t-on de la neige, impassible ma neige Loiseaux sur la branche, fleur le sort il est jeu Tendre la neige, tu ne viendras pas ce soir Tendre la neige, tout est blanc, tu désespoir Riste certitude, le froid est l'absence C'est odieux, silence, blanche solitude Tu ne viendras pas ce soir, ne crie mon désespoir Mets-t-on de la neige, impassible ma neige Mets-t-on de la neige, impassible ma neige La la la la la la la la la la....",
+  "words": [
+    {
+      "start": 0.0,
+      "end": 0.74,
+      "text": "Tendre"
+    },
+    {
+      "start": 0.74,
+      "end": 1.88,
+      "text": "la"
+    },
+    {
+      "start": 1.88,
+      "end": 2.76,
+      "text": "neige,"
+    },
+    {
+      "start": 3.34,
+      "end": 5.38,
+      "text": "tu"
+    },
+    {
+      "start": 5.38,
+      "end": 5.52,
+      "text": "ne"
+    },
+    {
+      "start": 5.52,
+      "end": 5.9,
+      "text": "viendras"
+    },
+    {
+      "start": 5.9,
+      "end": 6.28,
+      "text": "pas"
+    },
+    {
+      "start": 6.28,
+      "end": 6.62,
+      "text": "ce"
+    },
+    {
+      "start": 6.62,
+      "end": 7.06,
+      "text": "soir"
+    },
+    {
+      "start": 9.66,
+      "end": 10.8,
+      "text": "Tendre"
+    },
+    {
+      "start": 10.8,
+      "end": 11.24,
+      "text": "la"
+    },
+    {
+      "start": 11.24,
+      "end": 12.02,
+      "text": "neige"
+    },
+    {
+      "start": 12.02,
+      "end": 14.36,
+      "text": "et"
+    },
+    {
+      "start": 14.36,
+      "end": 14.54,
+      "text": "mon"
+    },
+    {
+      "start": 14.54,
+      "end": 15.04,
+      "text": "cœur"
+    },
+    {
+      "start": 15.04,
+      "end": 15.4,
+      "text": "s"
+    },
+    {
+      "start": 15.4,
+      "end": 15.62,
+      "text": "'habille"
+    },
+    {
+      "start": 15.62,
+      "end": 15.78,
+      "text": "de"
+    },
+    {
+      "start": 15.78,
+      "end": 16.14,
+      "text": "moi"
+    },
+    {
+      "start": 18.67,
+      "end": 19.24,
+      "text": "Ce"
+    },
+    {
+      "start": 19.24,
+      "end": 20.16,
+      "text": "soyeux"
+    },
+    {
+      "start": 20.16,
+      "end": 21.06,
+      "text": "cortège,"
+    },
+    {
+      "start": 21.62,
+      "end": 23.82,
+      "text": "tout"
+    },
+    {
+      "start": 23.82,
+      "end": 24.3,
+      "text": "en"
+    },
+    {
+      "start": 24.3,
+      "end": 24.9,
+      "text": "larmes"
+    },
+    {
+      "start": 24.9,
+      "end": 25.86,
+      "text": "blanches"
+    },
+    {
+      "start": 27.82,
+      "end": 28.94,
+      "text": "Loiseaux"
+    },
+    {
+      "start": 28.94,
+      "end": 29.3,
+      "text": "sur"
+    },
+    {
+      "start": 29.3,
+      "end": 29.6,
+      "text": "la"
+    },
+    {
+      "start": 29.6,
+      "end": 30.32,
+      "text": "branche,"
+    },
+    {
+      "start": 30.94,
+      "end": 33.06,
+      "text": "fleur"
+    },
+    {
+      "start": 33.06,
+      "end": 33.34,
+      "text": "le"
+    },
+    {
+      "start": 33.34,
+      "end": 33.84,
+      "text": "sort"
+    },
+    {
+      "start": 33.84,
+      "end": 34.26,
+      "text": "il"
+    },
+    {
+      "start": 34.26,
+      "end": 34.62,
+      "text": "est"
+    },
+    {
+      "start": 34.62,
+      "end": 35.18,
+      "text": "jeu"
+    },
+    {
+      "start": 36.76,
+      "end": 37.08,
+      "text": "Tu"
+    },
+    {
+      "start": 37.08,
+      "end": 37.5,
+      "text": "ne"
+    },
+    {
+      "start": 37.5,
+      "end": 38.08,
+      "text": "viendras"
+    },
+    {
+      "start": 38.08,
+      "end": 38.46,
+      "text": "pas"
+    },
+    {
+      "start": 38.46,
+      "end": 38.78,
+      "text": "ce"
+    },
+    {
+      "start": 38.78,
+      "end": 39.34,
+      "text": "soir,"
+    },
+    {
+      "start": 41.72,
+      "end": 42.8,
+      "text": "crie"
+    },
+    {
+      "start": 42.8,
+      "end": 43.22,
+      "text": "mon"
+    },
+    {
+      "start": 43.22,
+      "end": 44.86,
+      "text": "désespoir"
+    },
+    {
+      "start": 46.16,
+      "end": 47.2,
+      "text": "Mets"
+    },
+    {
+      "start": 47.2,
+      "end": 47.64,
+      "text": "-t"
+    },
+    {
+      "start": 47.64,
+      "end": 47.84,
+      "text": "-on"
+    },
+    {
+      "start": 47.84,
+      "end": 48.24,
+      "text": "de"
+    },
+    {
+      "start": 48.24,
+      "end": 48.54,
+      "text": "la"
+    },
+    {
+      "start": 48.54,
+      "end": 49.28,
+      "text": "neige,"
+    },
+    {
+      "start": 50.38,
+      "end": 52.78,
+      "text": "impassible"
+    },
+    {
+      "start": 52.78,
+      "end": 53.4,
+      "text": "ma"
+    },
+    {
+      "start": 53.4,
+      "end": 54.06,
+      "text": "neige"
+    },
+    {
+      "start": 70.48,
+      "end": 71.22,
+      "text": "Loiseaux"
+    },
+    {
+      "start": 71.22,
+      "end": 71.96,
+      "text": "sur"
+    },
+    {
+      "start": 71.96,
+      "end": 71.96,
+      "text": "la"
+    },
+    {
+      "start": 71.96,
+      "end": 71.96,
+      "text": "branche,"
+    },
+    {
+      "start": 71.96,
+      "end": 71.96,
+      "text": "fleur"
+    },
+    {
+      "start": 71.96,
+      "end": 71.96,
+      "text": "le"
+    },
+    {
+      "start": 71.96,
+      "end": 71.96,
+      "text": "sort"
+    },
+    {
+      "start": 71.96,
+      "end": 71.96,
+      "text": "il"
+    },
+    {
+      "start": 71.96,
+      "end": 71.96,
+      "text": "est"
+    },
+    {
+      "start": 71.96,
+      "end": 71.96,
+      "text": "jeu"
+    },
+    {
+      "start": 77.12,
+      "end": 77.86,
+      "text": "Tendre"
+    },
+    {
+      "start": 77.86,
+      "end": 78.08,
+      "text": "la"
+    },
+    {
+      "start": 78.08,
+      "end": 78.48,
+      "text": "neige,"
+    },
+    {
+      "start": 79.0,
+      "end": 80.42,
+      "text": "tu"
+    },
+    {
+      "start": 80.42,
+      "end": 80.54,
+      "text": "ne"
+    },
+    {
+      "start": 80.54,
+      "end": 80.86,
+      "text": "viendras"
+    },
+    {
+      "start": 80.86,
+      "end": 81.16,
+      "text": "pas"
+    },
+    {
+      "start": 81.16,
+      "end": 81.4,
+      "text": "ce"
+    },
+    {
+      "start": 81.4,
+      "end": 81.74,
+      "text": "soir"
+    },
+    {
+      "start": 85.86,
+      "end": 85.98,
+      "text": "Tendre"
+    },
+    {
+      "start": 85.98,
+      "end": 86.16,
+      "text": "la"
+    },
+    {
+      "start": 86.16,
+      "end": 86.56,
+      "text": "neige,"
+    },
+    {
+      "start": 87.0,
+      "end": 89.36,
+      "text": "tout"
+    },
+    {
+      "start": 89.36,
+      "end": 89.52,
+      "text": "est"
+    },
+    {
+      "start": 89.52,
+      "end": 89.78,
+      "text": "blanc,"
+    },
+    {
+      "start": 90.14,
+      "end": 90.38,
+      "text": "tu"
+    },
+    {
+      "start": 90.38,
+      "end": 91.14,
+      "text": "désespoir"
+    },
+    {
+      "start": 94.18,
+      "end": 95.14,
+      "text": "Riste"
+    },
+    {
+      "start": 95.14,
+      "end": 96.1,
+      "text": "certitude,"
+    },
+    {
+      "start": 96.5,
+      "end": 98.82,
+      "text": "le"
+    },
+    {
+      "start": 98.82,
+      "end": 99.26,
+      "text": "froid"
+    },
+    {
+      "start": 99.26,
+      "end": 99.86,
+      "text": "est"
+    },
+    {
+      "start": 99.86,
+      "end": 99.96,
+      "text": "l"
+    },
+    {
+      "start": 99.96,
+      "end": 100.72,
+      "text": "'absence"
+    },
+    {
+      "start": 102.58,
+      "end": 103.54,
+      "text": "C"
+    },
+    {
+      "start": 103.54,
+      "end": 103.66,
+      "text": "'est"
+    },
+    {
+      "start": 103.66,
+      "end": 104.18,
+      "text": "odieux,"
+    },
+    {
+      "start": 104.4,
+      "end": 105.3,
+      "text": "silence,"
+    },
+    {
+      "start": 106.1,
+      "end": 108.34,
+      "text": "blanche"
+    },
+    {
+      "start": 108.34,
+      "end": 110.04,
+      "text": "solitude"
+    },
+    {
+      "start": 111.04,
+      "end": 112.2,
+      "text": "Tu"
+    },
+    {
+      "start": 112.2,
+      "end": 112.64,
+      "text": "ne"
+    },
+    {
+      "start": 112.64,
+      "end": 113.22,
+      "text": "viendras"
+    },
+    {
+      "start": 113.22,
+      "end": 113.68,
+      "text": "pas"
+    },
+    {
+      "start": 113.68,
+      "end": 113.98,
+      "text": "ce"
+    },
+    {
+      "start": 113.98,
+      "end": 114.68,
+      "text": "soir,"
+    },
+    {
+      "start": 116.22,
+      "end": 117.42,
+      "text": "ne"
+    },
+    {
+      "start": 117.42,
+      "end": 117.94,
+      "text": "crie"
+    },
+    {
+      "start": 117.94,
+      "end": 118.56,
+      "text": "mon"
+    },
+    {
+      "start": 118.56,
+      "end": 120.04,
+      "text": "désespoir"
+    },
+    {
+      "start": 121.52,
+      "end": 122.44,
+      "text": "Mets"
+    },
+    {
+      "start": 122.44,
+      "end": 122.84,
+      "text": "-t"
+    },
+    {
+      "start": 122.84,
+      "end": 123.04,
+      "text": "-on"
+    },
+    {
+      "start": 123.04,
+      "end": 123.46,
+      "text": "de"
+    },
+    {
+      "start": 123.46,
+      "end": 123.76,
+      "text": "la"
+    },
+    {
+      "start": 123.76,
+      "end": 124.52,
+      "text": "neige,"
+    },
+    {
+      "start": 125.34,
+      "end": 128.1,
+      "text": "impassible"
+    },
+    {
+      "start": 128.1,
+      "end": 128.72,
+      "text": "ma"
+    },
+    {
+      "start": 128.72,
+      "end": 129.34,
+      "text": "neige"
+    },
+    {
+      "start": 130.82,
+      "end": 132.06,
+      "text": "Mets"
+    },
+    {
+      "start": 132.06,
+      "end": 132.5,
+      "text": "-t"
+    },
+    {
+      "start": 132.5,
+      "end": 132.74,
+      "text": "-on"
+    },
+    {
+      "start": 132.74,
+      "end": 133.08,
+      "text": "de"
+    },
+    {
+      "start": 133.08,
+      "end": 133.44,
+      "text": "la"
+    },
+    {
+      "start": 133.44,
+      "end": 134.28,
+      "text": "neige,"
+    },
+    {
+      "start": 135.16,
+      "end": 137.94,
+      "text": "impassible"
+    },
+    {
+      "start": 137.94,
+      "end": 138.62,
+      "text": "ma"
+    },
+    {
+      "start": 138.62,
+      "end": 139.34,
+      "text": "neige"
+    },
+    {
+      "start": 143.14,
+      "end": 144.54,
+      "text": "La"
+    },
+    {
+      "start": 144.54,
+      "end": 145.94,
+      "text": "la"
+    },
+    {
+      "start": 145.94,
+      "end": 146.78,
+      "text": "la"
+    },
+    {
+      "start": 146.78,
+      "end": 147.4,
+      "text": "la"
+    },
+    {
+      "start": 147.4,
+      "end": 147.96,
+      "text": "la"
+    },
+    {
+      "start": 147.96,
+      "end": 148.2,
+      "text": "la"
+    },
+    {
+      "start": 148.2,
+      "end": 148.78,
+      "text": "la"
+    },
+    {
+      "start": 148.78,
+      "end": 149.8,
+      "text": "la"
+    },
+    {
+      "start": 149.8,
+      "end": 150.42,
+      "text": "la"
+    },
+    {
+      "start": 150.42,
+      "end": 151.12,
+      "text": "la...."
+    }
+  ]
+}

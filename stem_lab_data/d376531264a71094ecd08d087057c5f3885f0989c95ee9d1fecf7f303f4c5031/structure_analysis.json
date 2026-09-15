@@ -1,0 +1,1969 @@
+{
+  "tempo": 99.384,
+  "beats_per_bar": 4,
+  "measure_count": 75,
+  "measures": [
+    {
+      "measure": 1,
+      "time_start": 4.249251700680272,
+      "time_end": 6.594467120181406,
+      "beat_chords": [
+        "D",
+        "Dm",
+        "D",
+        "Gm"
+      ],
+      "pattern": "D|Dm|D|Gm"
+    },
+    {
+      "measure": 2,
+      "time_start": 6.594467120181406,
+      "time_end": 8.870022675736962,
+      "beat_chords": [
+        "Em",
+        "Em",
+        "A",
+        "Em"
+      ],
+      "pattern": "Em|A|Em"
+    },
+    {
+      "measure": 3,
+      "time_start": 8.870022675736962,
+      "time_end": 11.168798185941043,
+      "beat_chords": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "pattern": "A"
+    },
+    {
+      "measure": 4,
+      "time_start": 11.168798185941043,
+      "time_end": 13.467573696145125,
+      "beat_chords": [
+        "Em",
+        "Em",
+        "A",
+        "Gm"
+      ],
+      "pattern": "Em|A|Gm"
+    },
+    {
+      "measure": 5,
+      "time_start": 13.467573696145125,
+      "time_end": 15.789569160997733,
+      "beat_chords": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "pattern": "A"
+    },
+    {
+      "measure": 6,
+      "time_start": 15.789569160997733,
+      "time_end": 18.18122448979592,
+      "beat_chords": [
+        "D",
+        "Dm",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "D|Dm"
+    },
+    {
+      "measure": 7,
+      "time_start": 18.18122448979592,
+      "time_end": 20.688979591836734,
+      "beat_chords": [
+        "D",
+        "Dm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "D|Dm|Gm"
+    },
+    {
+      "measure": 8,
+      "time_start": 20.688979591836734,
+      "time_end": 23.1502947845805,
+      "beat_chords": [
+        "Gm",
+        "Gm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Gm"
+    },
+    {
+      "measure": 9,
+      "time_start": 23.1502947845805,
+      "time_end": 25.56517006802721,
+      "beat_chords": [
+        "Gm",
+        "Gm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Gm"
+    },
+    {
+      "measure": 10,
+      "time_start": 25.56517006802721,
+      "time_end": 28.026485260770976,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Dm"
+    },
+    {
+      "measure": 11,
+      "time_start": 28.026485260770976,
+      "time_end": 30.53424036281179,
+      "beat_chords": [
+        "Dm",
+        "F",
+        "Am",
+        "Em"
+      ],
+      "pattern": "Dm|F|Am|Em"
+    },
+    {
+      "measure": 12,
+      "time_start": 30.53424036281179,
+      "time_end": 33.041995464852604,
+      "beat_chords": [
+        "A",
+        "G",
+        "A",
+        "A"
+      ],
+      "pattern": "A|G|A"
+    },
+    {
+      "measure": 13,
+      "time_start": 33.041995464852604,
+      "time_end": 35.456870748299316,
+      "beat_chords": [
+        "A",
+        "A",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "A|Dm"
+    },
+    {
+      "measure": 14,
+      "time_start": 35.456870748299316,
+      "time_end": 37.871746031746035,
+      "beat_chords": [
+        "Dm",
+        "Gm",
+        "D",
+        "G"
+      ],
+      "pattern": "Dm|Gm|D|G"
+    },
+    {
+      "measure": 15,
+      "time_start": 37.871746031746035,
+      "time_end": 40.24018140589569,
+      "beat_chords": [
+        "G",
+        "Gm",
+        "G",
+        "Gm"
+      ],
+      "pattern": "G|Gm|G|Gm"
+    },
+    {
+      "measure": 16,
+      "time_start": 40.24018140589569,
+      "time_end": 42.63183673469388,
+      "beat_chords": [
+        "Em",
+        "Gm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Em|Gm"
+    },
+    {
+      "measure": 17,
+      "time_start": 42.63183673469388,
+      "time_end": 45.023492063492064,
+      "beat_chords": [
+        "Em",
+        "Em",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Em|Dm"
+    },
+    {
+      "measure": 18,
+      "time_start": 45.023492063492064,
+      "time_end": 47.4615873015873,
+      "beat_chords": [
+        "Am",
+        "Am",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Am|Dm"
+    },
+    {
+      "measure": 19,
+      "time_start": 47.4615873015873,
+      "time_end": 49.87646258503401,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "A",
+        "A"
+      ],
+      "pattern": "Dm|A"
+    },
+    {
+      "measure": 20,
+      "time_start": 49.87646258503401,
+      "time_end": 52.2681179138322,
+      "beat_chords": [
+        "Gm",
+        "Gm",
+        "Em",
+        "A"
+      ],
+      "pattern": "Gm|Em|A"
+    },
+    {
+      "measure": 21,
+      "time_start": 52.2681179138322,
+      "time_end": 54.706213151927436,
+      "beat_chords": [
+        "A",
+        "A",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "A|Dm"
+    },
+    {
+      "measure": 22,
+      "time_start": 54.706213151927436,
+      "time_end": 57.213968253968254,
+      "beat_chords": [
+        "Am",
+        "Am",
+        "Dm",
+        "C"
+      ],
+      "pattern": "Am|Dm|C"
+    },
+    {
+      "measure": 23,
+      "time_start": 57.213968253968254,
+      "time_end": 59.72172335600907,
+      "beat_chords": [
+        "C",
+        "Em",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "C|Em|Gm"
+    },
+    {
+      "measure": 24,
+      "time_start": 59.72172335600907,
+      "time_end": 62.22947845804989,
+      "beat_chords": [
+        "Gm",
+        "Gm",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Gm|Dm"
+    },
+    {
+      "measure": 25,
+      "time_start": 62.22947845804989,
+      "time_end": 64.7372335600907,
+      "beat_chords": [
+        "Dm",
+        "A",
+        "A",
+        "A"
+      ],
+      "pattern": "Dm|A"
+    },
+    {
+      "measure": 26,
+      "time_start": 64.7372335600907,
+      "time_end": 67.221768707483,
+      "beat_chords": [
+        "A",
+        "Dm",
+        "Dm",
+        "D"
+      ],
+      "pattern": "A|Dm|D"
+    },
+    {
+      "measure": 27,
+      "time_start": 67.221768707483,
+      "time_end": 69.59020408163265,
+      "beat_chords": [
+        "Gm",
+        "Gm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Gm"
+    },
+    {
+      "measure": 28,
+      "time_start": 69.59020408163265,
+      "time_end": 72.00507936507937,
+      "beat_chords": [
+        "Gm",
+        "Dm",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Gm|Dm"
+    },
+    {
+      "measure": 29,
+      "time_start": 72.00507936507937,
+      "time_end": 74.41995464852607,
+      "beat_chords": [
+        "Em",
+        "Em",
+        "A",
+        "G"
+      ],
+      "pattern": "Em|A|G"
+    },
+    {
+      "measure": 30,
+      "time_start": 74.41995464852607,
+      "time_end": 76.83482993197279,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "Dm",
+        "Gm"
+      ],
+      "pattern": "Dm|Gm"
+    },
+    {
+      "measure": 31,
+      "time_start": 76.83482993197279,
+      "time_end": 79.27292517006802,
+      "beat_chords": [
+        "Gm",
+        "Gm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Gm"
+    },
+    {
+      "measure": 32,
+      "time_start": 79.27292517006802,
+      "time_end": 81.73424036281179,
+      "beat_chords": [
+        "Gm",
+        "Gm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Gm"
+    },
+    {
+      "measure": 33,
+      "time_start": 81.73424036281179,
+      "time_end": 84.12589569160998,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "Dm",
+        "D"
+      ],
+      "pattern": "Dm|D"
+    },
+    {
+      "measure": 34,
+      "time_start": 84.12589569160998,
+      "time_end": 86.47111111111111,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "Dm",
+        "Gm"
+      ],
+      "pattern": "Dm|Gm"
+    },
+    {
+      "measure": 35,
+      "time_start": 86.47111111111111,
+      "time_end": 88.79310657596372,
+      "beat_chords": [
+        "Em",
+        "Em",
+        "A",
+        "Em"
+      ],
+      "pattern": "Em|A|Em"
+    },
+    {
+      "measure": 36,
+      "time_start": 88.79310657596372,
+      "time_end": 91.20798185941042,
+      "beat_chords": [
+        "Em",
+        "A",
+        "A",
+        "A"
+      ],
+      "pattern": "Em|A"
+    },
+    {
+      "measure": 37,
+      "time_start": 91.20798185941042,
+      "time_end": 93.5764172335601,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "Dm",
+        "D"
+      ],
+      "pattern": "Dm|D"
+    },
+    {
+      "measure": 38,
+      "time_start": 93.5764172335601,
+      "time_end": 95.96807256235827,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "D",
+        "D"
+      ],
+      "pattern": "Dm|D"
+    },
+    {
+      "measure": 39,
+      "time_start": 95.96807256235827,
+      "time_end": 98.26684807256235,
+      "beat_chords": [
+        "Gm",
+        "Gm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Gm"
+    },
+    {
+      "measure": 40,
+      "time_start": 98.26684807256235,
+      "time_end": 100.58884353741496,
+      "beat_chords": [
+        "Gm",
+        "Gm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Gm"
+    },
+    {
+      "measure": 41,
+      "time_start": 100.58884353741496,
+      "time_end": 103.09659863945578,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Dm"
+    },
+    {
+      "measure": 42,
+      "time_start": 103.09659863945578,
+      "time_end": 105.58113378684807,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "Dm",
+        "Em"
+      ],
+      "pattern": "Dm|Em"
+    },
+    {
+      "measure": 43,
+      "time_start": 105.58113378684807,
+      "time_end": 108.01922902494331,
+      "beat_chords": [
+        "A",
+        "A",
+        "Em",
+        "A"
+      ],
+      "pattern": "A|Em|A"
+    },
+    {
+      "measure": 44,
+      "time_start": 108.01922902494331,
+      "time_end": 110.50376417233561,
+      "beat_chords": [
+        "A",
+        "A",
+        "D",
+        "Dm"
+      ],
+      "pattern": "A|D|Dm"
+    },
+    {
+      "measure": 45,
+      "time_start": 110.50376417233561,
+      "time_end": 113.01151927437641,
+      "beat_chords": [
+        "Dm",
+        "D",
+        "Dm",
+        "Gm"
+      ],
+      "pattern": "Dm|D|Dm|Gm"
+    },
+    {
+      "measure": 46,
+      "time_start": 113.01151927437641,
+      "time_end": 115.47283446712018,
+      "beat_chords": [
+        "Gm",
+        "G",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Gm|G|Gm"
+    },
+    {
+      "measure": 47,
+      "time_start": 115.47283446712018,
+      "time_end": 117.86448979591837,
+      "beat_chords": [
+        "Em",
+        "G",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Em|G|Gm"
+    },
+    {
+      "measure": 48,
+      "time_start": 117.86448979591837,
+      "time_end": 120.27936507936508,
+      "beat_chords": [
+        "Em",
+        "Em",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Em|Dm"
+    },
+    {
+      "measure": 49,
+      "time_start": 120.27936507936508,
+      "time_end": 122.6942403628118,
+      "beat_chords": [
+        "Am",
+        "Am",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Am|Dm"
+    },
+    {
+      "measure": 50,
+      "time_start": 122.6942403628118,
+      "time_end": 125.15555555555555,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "A",
+        "C#m"
+      ],
+      "pattern": "Dm|A|C#m"
+    },
+    {
+      "measure": 51,
+      "time_start": 125.15555555555555,
+      "time_end": 127.57043083900227,
+      "beat_chords": [
+        "Gm",
+        "D",
+        "Em",
+        "Em"
+      ],
+      "pattern": "Gm|D|Em"
+    },
+    {
+      "measure": 52,
+      "time_start": 127.57043083900227,
+      "time_end": 130.03174603174602,
+      "beat_chords": [
+        "A",
+        "G",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "A|G|Dm"
+    },
+    {
+      "measure": 53,
+      "time_start": 130.03174603174602,
+      "time_end": 132.4930612244898,
+      "beat_chords": [
+        "Am",
+        "Dm",
+        "Dm",
+        "Gm"
+      ],
+      "pattern": "Am|Dm|Gm"
+    },
+    {
+      "measure": 54,
+      "time_start": 132.4930612244898,
+      "time_end": 134.9775963718821,
+      "beat_chords": [
+        "G",
+        "G",
+        "A",
+        "C#"
+      ],
+      "pattern": "G|A|C#"
+    },
+    {
+      "measure": 55,
+      "time_start": 134.9775963718821,
+      "time_end": 137.43891156462584,
+      "beat_chords": [
+        "D",
+        "Dm",
+        "Em",
+        "Em"
+      ],
+      "pattern": "D|Dm|Em"
+    },
+    {
+      "measure": 56,
+      "time_start": 137.43891156462584,
+      "time_end": 139.9002267573696,
+      "beat_chords": [
+        "C#m",
+        "A",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "C#m|A|Dm"
+    },
+    {
+      "measure": 57,
+      "time_start": 139.9002267573696,
+      "time_end": 142.38476190476192,
+      "beat_chords": [
+        "Am",
+        "Dm",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Am|Dm"
+    },
+    {
+      "measure": 58,
+      "time_start": 142.38476190476192,
+      "time_end": 144.9621768707483,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Dm|Gm"
+    },
+    {
+      "measure": 59,
+      "time_start": 144.9621768707483,
+      "time_end": 147.51637188208616,
+      "beat_chords": [
+        "Gm",
+        "Gm",
+        "D",
+        "Dm"
+      ],
+      "pattern": "Gm|D|Dm"
+    },
+    {
+      "measure": 60,
+      "time_start": 147.51637188208616,
+      "time_end": 149.88480725623583,
+      "beat_chords": [
+        "D",
+        "Em",
+        "A",
+        "A"
+      ],
+      "pattern": "D|Em|A"
+    },
+    {
+      "measure": 61,
+      "time_start": 149.88480725623583,
+      "time_end": 152.23002267573696,
+      "beat_chords": [
+        "A",
+        "D",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "A|D|Dm"
+    },
+    {
+      "measure": 62,
+      "time_start": 152.23002267573696,
+      "time_end": 154.55201814058958,
+      "beat_chords": [
+        "D",
+        "Gm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "D|Gm"
+    },
+    {
+      "measure": 63,
+      "time_start": 154.55201814058958,
+      "time_end": 156.87401360544217,
+      "beat_chords": [
+        "Gm",
+        "D",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Gm|D|Dm"
+    },
+    {
+      "measure": 64,
+      "time_start": 156.87401360544217,
+      "time_end": 159.1960090702948,
+      "beat_chords": [
+        "D",
+        "A",
+        "A",
+        "A"
+      ],
+      "pattern": "D|A"
+    },
+    {
+      "measure": 65,
+      "time_start": 159.1960090702948,
+      "time_end": 161.51800453514738,
+      "beat_chords": [
+        "A",
+        "D",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "A|D|Dm"
+    },
+    {
+      "measure": 66,
+      "time_start": 161.51800453514738,
+      "time_end": 163.84,
+      "beat_chords": [
+        "D",
+        "Gm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "D|Gm"
+    },
+    {
+      "measure": 67,
+      "time_start": 163.84,
+      "time_end": 166.1619954648526,
+      "beat_chords": [
+        "Gm",
+        "D",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Gm|D|Dm"
+    },
+    {
+      "measure": 68,
+      "time_start": 166.1619954648526,
+      "time_end": 168.48399092970521,
+      "beat_chords": [
+        "D",
+        "A",
+        "Em",
+        "A"
+      ],
+      "pattern": "D|A|Em|A"
+    },
+    {
+      "measure": 69,
+      "time_start": 168.48399092970521,
+      "time_end": 170.80598639455783,
+      "beat_chords": [
+        "A",
+        "D",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "A|D|Dm"
+    },
+    {
+      "measure": 70,
+      "time_start": 170.80598639455783,
+      "time_end": 173.12798185941043,
+      "beat_chords": [
+        "Dm",
+        "G",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Dm|G|Gm"
+    },
+    {
+      "measure": 71,
+      "time_start": 173.12798185941043,
+      "time_end": 175.44997732426305,
+      "beat_chords": [
+        "Gm",
+        "D",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Gm|D|Dm"
+    },
+    {
+      "measure": 72,
+      "time_start": 175.44997732426305,
+      "time_end": 177.9112925170068,
+      "beat_chords": [
+        "Dm",
+        "A",
+        "Em",
+        "A"
+      ],
+      "pattern": "Dm|A|Em|A"
+    },
+    {
+      "measure": 73,
+      "time_start": 177.9112925170068,
+      "time_end": 180.53514739229024,
+      "beat_chords": [
+        "A",
+        "Dm",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "A|Dm"
+    },
+    {
+      "measure": 74,
+      "time_start": 180.53514739229024,
+      "time_end": 182.95002267573696,
+      "beat_chords": [
+        "Gm",
+        "Gm",
+        "Gm",
+        "Gm"
+      ],
+      "pattern": "Gm"
+    },
+    {
+      "measure": 75,
+      "time_start": 182.95002267573696,
+      "time_end": 185.3648979591837,
+      "beat_chords": [
+        "Dm",
+        "Dm",
+        "Dm",
+        "Dm"
+      ],
+      "pattern": "Dm"
+    }
+  ],
+  "harmonic_motifs": [
+    {
+      "a_measure_start": 58,
+      "a_measure_end": 63,
+      "b_measure_start": 66,
+      "b_measure_end": 71,
+      "a_time_start": 142.38476190476192,
+      "a_time_end": 156.87401360544217,
+      "b_time_start": 161.51800453514738,
+      "b_time_end": 175.44997732426305,
+      "length": 6,
+      "similarity": 0.9122
+    },
+    {
+      "a_measure_start": 8,
+      "a_measure_end": 13,
+      "b_measure_start": 39,
+      "b_measure_end": 44,
+      "a_time_start": 20.688979591836734,
+      "a_time_end": 35.456870748299316,
+      "b_time_start": 95.96807256235827,
+      "b_time_end": 110.50376417233561,
+      "length": 6,
+      "similarity": 0.8657
+    },
+    {
+      "a_measure_start": 15,
+      "a_measure_end": 20,
+      "b_measure_start": 46,
+      "b_measure_end": 51,
+      "a_time_start": 37.871746031746035,
+      "a_time_end": 52.2681179138322,
+      "b_time_start": 113.01151927437641,
+      "b_time_end": 127.57043083900227,
+      "length": 6,
+      "similarity": 0.8482
+    },
+    {
+      "a_measure_start": 12,
+      "a_measure_end": 18,
+      "b_measure_start": 43,
+      "b_measure_end": 49,
+      "a_time_start": 30.53424036281179,
+      "a_time_end": 47.4615873015873,
+      "b_time_start": 105.58113378684807,
+      "b_time_end": 122.6942403628118,
+      "length": 7,
+      "similarity": 0.8231
+    },
+    {
+      "a_measure_start": 57,
+      "a_measure_end": 62,
+      "b_measure_start": 69,
+      "b_measure_end": 74,
+      "a_time_start": 139.9002267573696,
+      "a_time_end": 154.55201814058958,
+      "b_time_start": 168.48399092970521,
+      "b_time_end": 182.95002267573696,
+      "length": 6,
+      "similarity": 0.8045
+    },
+    {
+      "a_measure_start": 4,
+      "a_measure_end": 18,
+      "b_measure_start": 35,
+      "b_measure_end": 49,
+      "a_time_start": 11.168798185941043,
+      "a_time_end": 47.4615873015873,
+      "b_time_start": 86.47111111111111,
+      "b_time_end": 122.6942403628118,
+      "length": 15,
+      "similarity": 0.7987
+    },
+    {
+      "a_measure_start": 30,
+      "a_measure_end": 35,
+      "b_measure_start": 38,
+      "b_measure_end": 43,
+      "a_time_start": 74.41995464852607,
+      "a_time_end": 88.79310657596372,
+      "b_time_start": 93.5764172335601,
+      "b_time_end": 108.01922902494331,
+      "length": 6,
+      "similarity": 0.7915
+    },
+    {
+      "a_measure_start": 61,
+      "a_measure_end": 66,
+      "b_measure_start": 69,
+      "b_measure_end": 74,
+      "a_time_start": 149.88480725623583,
+      "a_time_end": 163.84,
+      "b_time_start": 168.48399092970521,
+      "b_time_end": 182.95002267573696,
+      "length": 6,
+      "similarity": 0.7823
+    },
+    {
+      "a_measure_start": 22,
+      "a_measure_end": 28,
+      "b_measure_start": 57,
+      "b_measure_end": 63,
+      "a_time_start": 54.706213151927436,
+      "a_time_end": 72.00507936507937,
+      "b_time_start": 139.9002267573696,
+      "b_time_end": 156.87401360544217,
+      "length": 7,
+      "similarity": 0.781
+    },
+    {
+      "a_measure_start": 55,
+      "a_measure_end": 61,
+      "b_measure_start": 63,
+      "b_measure_end": 69,
+      "a_time_start": 134.9775963718821,
+      "a_time_end": 152.23002267573696,
+      "b_time_start": 154.55201814058958,
+      "b_time_end": 170.80598639455783,
+      "length": 7,
+      "similarity": 0.7726
+    },
+    {
+      "a_measure_start": 24,
+      "a_measure_end": 29,
+      "b_measure_start": 63,
+      "b_measure_end": 68,
+      "a_time_start": 59.72172335600907,
+      "a_time_end": 74.41995464852607,
+      "b_time_start": 154.55201814058958,
+      "b_time_end": 168.48399092970521,
+      "length": 6,
+      "similarity": 0.7659
+    },
+    {
+      "a_measure_start": 22,
+      "a_measure_end": 27,
+      "b_measure_start": 69,
+      "b_measure_end": 74,
+      "a_time_start": 54.706213151927436,
+      "a_time_end": 69.59020408163265,
+      "b_time_start": 168.48399092970521,
+      "b_time_end": 182.95002267573696,
+      "length": 6,
+      "similarity": 0.7393
+    }
+  ],
+  "lyric_phrases": [
+    {
+      "index": 0,
+      "time_start": 0.0,
+      "time_end": 7.06,
+      "text": "Tendre la neige, tu ne viendras pas ce soir",
+      "normalized": "tendre la neige tu ne viendras pas ce soir",
+      "word_count": 9
+    },
+    {
+      "index": 1,
+      "time_start": 9.66,
+      "time_end": 16.14,
+      "text": "Tendre la neige et mon cœur s 'habille de moi",
+      "normalized": "tendre la neige et mon c ur s 'habille de moi",
+      "word_count": 10
+    },
+    {
+      "index": 2,
+      "time_start": 18.67,
+      "time_end": 25.86,
+      "text": "Ce soyeux cortège, tout en larmes blanches",
+      "normalized": "ce soyeux cortège tout en larmes blanches",
+      "word_count": 7
+    },
+    {
+      "index": 3,
+      "time_start": 27.82,
+      "time_end": 35.18,
+      "text": "Loiseaux sur la branche, fleur le sort il est jeu",
+      "normalized": "loiseaux sur la branche fleur le sort il est jeu",
+      "word_count": 10
+    },
+    {
+      "index": 4,
+      "time_start": 36.76,
+      "time_end": 39.34,
+      "text": "Tu ne viendras pas ce soir,",
+      "normalized": "tu ne viendras pas ce soir",
+      "word_count": 6
+    },
+    {
+      "index": 5,
+      "time_start": 41.72,
+      "time_end": 44.86,
+      "text": "crie mon désespoir",
+      "normalized": "crie mon désespoir",
+      "word_count": 3
+    },
+    {
+      "index": 6,
+      "time_start": 46.16,
+      "time_end": 54.06,
+      "text": "Mets -t -on de la neige, impassible ma neige",
+      "normalized": "mets -t -on de la neige impassible ma neige",
+      "word_count": 9
+    },
+    {
+      "index": 7,
+      "time_start": 70.48,
+      "time_end": 71.96,
+      "text": "Loiseaux sur",
+      "normalized": "loiseaux sur",
+      "word_count": 2
+    },
+    {
+      "index": 8,
+      "time_start": 77.12,
+      "time_end": 81.74,
+      "text": "Tendre la neige, tu ne viendras pas ce soir",
+      "normalized": "tendre la neige tu ne viendras pas ce soir",
+      "word_count": 9
+    },
+    {
+      "index": 9,
+      "time_start": 85.86,
+      "time_end": 91.14,
+      "text": "Tendre la neige, tout est blanc, tu désespoir",
+      "normalized": "tendre la neige tout est blanc tu désespoir",
+      "word_count": 8
+    },
+    {
+      "index": 10,
+      "time_start": 94.18,
+      "time_end": 100.72,
+      "text": "Riste certitude, le froid est l 'absence",
+      "normalized": "riste certitude le froid est l 'absence",
+      "word_count": 7
+    },
+    {
+      "index": 11,
+      "time_start": 102.58,
+      "time_end": 114.68,
+      "text": "C 'est odieux, silence, blanche solitude Tu ne viendras pas ce soir,",
+      "normalized": "c 'est odieux silence blanche solitude tu ne viendras pas ce soir",
+      "word_count": 12
+    },
+    {
+      "index": 12,
+      "time_start": 116.22,
+      "time_end": 120.04,
+      "text": "ne crie mon désespoir",
+      "normalized": "ne crie mon désespoir",
+      "word_count": 4
+    },
+    {
+      "index": 13,
+      "time_start": 121.52,
+      "time_end": 129.34,
+      "text": "Mets -t -on de la neige, impassible ma neige",
+      "normalized": "mets -t -on de la neige impassible ma neige",
+      "word_count": 9
+    },
+    {
+      "index": 14,
+      "time_start": 130.82,
+      "time_end": 139.34,
+      "text": "Mets -t -on de la neige, impassible ma neige",
+      "normalized": "mets -t -on de la neige impassible ma neige",
+      "word_count": 9
+    },
+    {
+      "index": 15,
+      "time_start": 143.14,
+      "time_end": 151.12,
+      "text": "La la la la la la la la la la....",
+      "normalized": "la la la la la la la la la la",
+      "word_count": 10
+    }
+  ],
+  "lyric_repeats": [
+    {
+      "a_index": 6,
+      "b_index": 13,
+      "a_phrase_end": 6,
+      "b_phrase_end": 13,
+      "a_time_start": 46.16,
+      "a_time_end": 54.06,
+      "b_time_start": 121.52,
+      "b_time_end": 129.34,
+      "text_a": "Mets -t -on de la neige, impassible ma neige",
+      "text_b": "Mets -t -on de la neige, impassible ma neige",
+      "similarity": 1.0,
+      "raw_similarity": 1.0,
+      "window_phrases": 1
+    },
+    {
+      "a_index": 6,
+      "b_index": 14,
+      "a_phrase_end": 6,
+      "b_phrase_end": 14,
+      "a_time_start": 46.16,
+      "a_time_end": 54.06,
+      "b_time_start": 130.82,
+      "b_time_end": 139.34,
+      "text_a": "Mets -t -on de la neige, impassible ma neige",
+      "text_b": "Mets -t -on de la neige, impassible ma neige",
+      "similarity": 1.0,
+      "raw_similarity": 1.0,
+      "window_phrases": 1
+    },
+    {
+      "a_index": 0,
+      "b_index": 8,
+      "a_phrase_end": 0,
+      "b_phrase_end": 8,
+      "a_time_start": 0.0,
+      "a_time_end": 7.06,
+      "b_time_start": 77.12,
+      "b_time_end": 81.74,
+      "text_a": "Tendre la neige, tu ne viendras pas ce soir",
+      "text_b": "Tendre la neige, tu ne viendras pas ce soir",
+      "similarity": 1.0,
+      "raw_similarity": 1.0,
+      "window_phrases": 1
+    },
+    {
+      "a_index": 5,
+      "b_index": 12,
+      "a_phrase_end": 6,
+      "b_phrase_end": 13,
+      "a_time_start": 41.72,
+      "a_time_end": 54.06,
+      "b_time_start": 116.22,
+      "b_time_end": 129.34,
+      "text_a": "crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+      "text_b": "ne crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+      "similarity": 0.9629,
+      "raw_similarity": 0.9764,
+      "window_phrases": 2
+    },
+    {
+      "a_index": 0,
+      "b_index": 7,
+      "a_phrase_end": 0,
+      "b_phrase_end": 8,
+      "a_time_start": 0.0,
+      "a_time_end": 7.06,
+      "b_time_start": 70.48,
+      "b_time_end": 81.74,
+      "text_a": "Tendre la neige, tu ne viendras pas ce soir",
+      "text_b": "Loiseaux sur Tendre la neige, tu ne viendras pas ce soir",
+      "similarity": 0.8376,
+      "raw_similarity": 0.866,
+      "window_phrases": 2
+    },
+    {
+      "a_index": 3,
+      "b_index": 11,
+      "a_phrase_end": 6,
+      "b_phrase_end": 13,
+      "a_time_start": 27.82,
+      "a_time_end": 54.06,
+      "b_time_start": 102.58,
+      "b_time_end": 129.34,
+      "text_a": "Loiseaux sur la branche, fleur le sort il est jeu Tu ne viendras pas ce soir, crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+      "text_b": "C 'est odieux, silence, blanche solitude Tu ne viendras pas ce soir, ne crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+      "similarity": 0.8021,
+      "raw_similarity": 0.8178,
+      "window_phrases": 4
+    },
+    {
+      "a_index": 4,
+      "b_index": 12,
+      "a_phrase_end": 6,
+      "b_phrase_end": 13,
+      "a_time_start": 36.76,
+      "a_time_end": 54.06,
+      "b_time_start": 116.22,
+      "b_time_end": 129.34,
+      "text_a": "Tu ne viendras pas ce soir, crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+      "text_b": "ne crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+      "similarity": 0.8019,
+      "raw_similarity": 0.8442,
+      "window_phrases": 3
+    },
+    {
+      "a_index": 5,
+      "b_index": 13,
+      "a_phrase_end": 6,
+      "b_phrase_end": 13,
+      "a_time_start": 41.72,
+      "a_time_end": 54.06,
+      "b_time_start": 121.52,
+      "b_time_end": 129.34,
+      "text_a": "crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+      "text_b": "Mets -t -on de la neige, impassible ma neige",
+      "similarity": 0.7822,
+      "raw_similarity": 0.819,
+      "window_phrases": 2
+    },
+    {
+      "a_index": 5,
+      "b_index": 14,
+      "a_phrase_end": 6,
+      "b_phrase_end": 14,
+      "a_time_start": 41.72,
+      "a_time_end": 54.06,
+      "b_time_start": 130.82,
+      "b_time_end": 139.34,
+      "text_a": "crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+      "text_b": "Mets -t -on de la neige, impassible ma neige",
+      "similarity": 0.7822,
+      "raw_similarity": 0.819,
+      "window_phrases": 2
+    },
+    {
+      "a_index": 4,
+      "b_index": 11,
+      "a_phrase_end": 6,
+      "b_phrase_end": 13,
+      "a_time_start": 36.76,
+      "a_time_end": 54.06,
+      "b_time_start": 102.58,
+      "b_time_end": 129.34,
+      "text_a": "Tu ne viendras pas ce soir, crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+      "text_b": "C 'est odieux, silence, blanche solitude Tu ne viendras pas ce soir, ne crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+      "similarity": 0.7683,
+      "raw_similarity": 0.8091,
+      "window_phrases": 3
+    },
+    {
+      "a_index": 6,
+      "b_index": 12,
+      "a_phrase_end": 6,
+      "b_phrase_end": 13,
+      "a_time_start": 46.16,
+      "a_time_end": 54.06,
+      "b_time_start": 116.22,
+      "b_time_end": 129.34,
+      "text_a": "Mets -t -on de la neige, impassible ma neige",
+      "text_b": "ne crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+      "similarity": 0.7522,
+      "raw_similarity": 0.7963,
+      "window_phrases": 2
+    },
+    {
+      "a_index": 0,
+      "b_index": 4,
+      "a_phrase_end": 0,
+      "b_phrase_end": 4,
+      "a_time_start": 0.0,
+      "a_time_end": 7.06,
+      "b_time_start": 36.76,
+      "b_time_end": 39.34,
+      "text_a": "Tendre la neige, tu ne viendras pas ce soir",
+      "text_b": "Tu ne viendras pas ce soir,",
+      "similarity": 0.7188,
+      "raw_similarity": 0.7647,
+      "window_phrases": 1
+    },
+    {
+      "a_index": 4,
+      "b_index": 8,
+      "a_phrase_end": 4,
+      "b_phrase_end": 8,
+      "a_time_start": 36.76,
+      "a_time_end": 39.34,
+      "b_time_start": 77.12,
+      "b_time_end": 81.74,
+      "text_a": "Tu ne viendras pas ce soir,",
+      "text_b": "Tendre la neige, tu ne viendras pas ce soir",
+      "similarity": 0.7188,
+      "raw_similarity": 0.7647,
+      "window_phrases": 1
+    },
+    {
+      "a_index": 7,
+      "b_index": 11,
+      "a_phrase_end": 8,
+      "b_phrase_end": 11,
+      "a_time_start": 70.48,
+      "a_time_end": 81.74,
+      "b_time_start": 102.58,
+      "b_time_end": 114.68,
+      "text_a": "Loiseaux sur Tendre la neige, tu ne viendras pas ce soir",
+      "text_b": "C 'est odieux, silence, blanche solitude Tu ne viendras pas ce soir,",
+      "similarity": 0.7059,
+      "raw_similarity": 0.7167,
+      "window_phrases": 2
+    },
+    {
+      "a_index": 3,
+      "b_index": 7,
+      "a_phrase_end": 4,
+      "b_phrase_end": 8,
+      "a_time_start": 27.82,
+      "a_time_end": 39.34,
+      "b_time_start": 70.48,
+      "b_time_end": 81.74,
+      "text_a": "Loiseaux sur la branche, fleur le sort il est jeu Tu ne viendras pas ce soir,",
+      "text_b": "Loiseaux sur Tendre la neige, tu ne viendras pas ce soir",
+      "similarity": 0.6679,
+      "raw_similarity": 0.7077,
+      "window_phrases": 2
+    },
+    {
+      "a_index": 0,
+      "b_index": 11,
+      "a_phrase_end": 0,
+      "b_phrase_end": 11,
+      "a_time_start": 0.0,
+      "a_time_end": 7.06,
+      "b_time_start": 102.58,
+      "b_time_end": 114.68,
+      "text_a": "Tendre la neige, tu ne viendras pas ce soir",
+      "text_b": "C 'est odieux, silence, blanche solitude Tu ne viendras pas ce soir,",
+      "similarity": 0.6605,
+      "raw_similarity": 0.6916,
+      "window_phrases": 1
+    },
+    {
+      "a_index": 8,
+      "b_index": 11,
+      "a_phrase_end": 8,
+      "b_phrase_end": 11,
+      "a_time_start": 77.12,
+      "a_time_end": 81.74,
+      "b_time_start": 102.58,
+      "b_time_end": 114.68,
+      "text_a": "Tendre la neige, tu ne viendras pas ce soir",
+      "text_b": "C 'est odieux, silence, blanche solitude Tu ne viendras pas ce soir,",
+      "similarity": 0.6605,
+      "raw_similarity": 0.6916,
+      "window_phrases": 1
+    }
+  ],
+  "candidates": [
+    {
+      "a_measure_start": 15,
+      "a_measure_end": 20,
+      "b_measure_start": 46,
+      "b_measure_end": 51,
+      "a_time_start": 37.871746031746035,
+      "a_time_end": 52.2681179138322,
+      "b_time_start": 113.01151927437641,
+      "b_time_end": 127.57043083900227,
+      "length": 6,
+      "similarity": 0.8482,
+      "harmonic_score": 0.8482,
+      "lyric_score": 0.9629,
+      "combined_score": 0.8803,
+      "type": "refrain probable",
+      "lyric_match": {
+        "a_index": 5,
+        "b_index": 12,
+        "a_phrase_end": 6,
+        "b_phrase_end": 13,
+        "a_time_start": 41.72,
+        "a_time_end": 54.06,
+        "b_time_start": 116.22,
+        "b_time_end": 129.34,
+        "text_a": "crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+        "text_b": "ne crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+        "similarity": 0.9629,
+        "raw_similarity": 0.9764,
+        "window_phrases": 2
+      }
+    },
+    {
+      "a_measure_start": 8,
+      "a_measure_end": 13,
+      "b_measure_start": 39,
+      "b_measure_end": 44,
+      "a_time_start": 20.688979591836734,
+      "a_time_end": 35.456870748299316,
+      "b_time_start": 95.96807256235827,
+      "b_time_end": 110.50376417233561,
+      "length": 6,
+      "similarity": 0.8657,
+      "harmonic_score": 0.8657,
+      "lyric_score": 0.8021,
+      "combined_score": 0.8479,
+      "type": "refrain probable",
+      "lyric_match": {
+        "a_index": 3,
+        "b_index": 11,
+        "a_phrase_end": 6,
+        "b_phrase_end": 13,
+        "a_time_start": 27.82,
+        "a_time_end": 54.06,
+        "b_time_start": 102.58,
+        "b_time_end": 129.34,
+        "text_a": "Loiseaux sur la branche, fleur le sort il est jeu Tu ne viendras pas ce soir, crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+        "text_b": "C 'est odieux, silence, blanche solitude Tu ne viendras pas ce soir, ne crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+        "similarity": 0.8021,
+        "raw_similarity": 0.8178,
+        "window_phrases": 4
+      }
+    },
+    {
+      "a_measure_start": 12,
+      "a_measure_end": 18,
+      "b_measure_start": 43,
+      "b_measure_end": 49,
+      "a_time_start": 30.53424036281179,
+      "a_time_end": 47.4615873015873,
+      "b_time_start": 105.58113378684807,
+      "b_time_end": 122.6942403628118,
+      "length": 7,
+      "similarity": 0.8231,
+      "harmonic_score": 0.8231,
+      "lyric_score": 0.8021,
+      "combined_score": 0.8172,
+      "type": "refrain probable",
+      "lyric_match": {
+        "a_index": 3,
+        "b_index": 11,
+        "a_phrase_end": 6,
+        "b_phrase_end": 13,
+        "a_time_start": 27.82,
+        "a_time_end": 54.06,
+        "b_time_start": 102.58,
+        "b_time_end": 129.34,
+        "text_a": "Loiseaux sur la branche, fleur le sort il est jeu Tu ne viendras pas ce soir, crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+        "text_b": "C 'est odieux, silence, blanche solitude Tu ne viendras pas ce soir, ne crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+        "similarity": 0.8021,
+        "raw_similarity": 0.8178,
+        "window_phrases": 4
+      }
+    },
+    {
+      "a_measure_start": 4,
+      "a_measure_end": 18,
+      "b_measure_start": 35,
+      "b_measure_end": 49,
+      "a_time_start": 11.168798185941043,
+      "a_time_end": 47.4615873015873,
+      "b_time_start": 86.47111111111111,
+      "b_time_end": 122.6942403628118,
+      "length": 15,
+      "similarity": 0.7987,
+      "harmonic_score": 0.7987,
+      "lyric_score": 0.8021,
+      "combined_score": 0.7997,
+      "type": "refrain probable",
+      "lyric_match": {
+        "a_index": 3,
+        "b_index": 11,
+        "a_phrase_end": 6,
+        "b_phrase_end": 13,
+        "a_time_start": 27.82,
+        "a_time_end": 54.06,
+        "b_time_start": 102.58,
+        "b_time_end": 129.34,
+        "text_a": "Loiseaux sur la branche, fleur le sort il est jeu Tu ne viendras pas ce soir, crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+        "text_b": "C 'est odieux, silence, blanche solitude Tu ne viendras pas ce soir, ne crie mon désespoir Mets -t -on de la neige, impassible ma neige",
+        "similarity": 0.8021,
+        "raw_similarity": 0.8178,
+        "window_phrases": 4
+      }
+    },
+    {
+      "a_measure_start": 30,
+      "a_measure_end": 35,
+      "b_measure_start": 38,
+      "b_measure_end": 43,
+      "a_time_start": 74.41995464852607,
+      "a_time_end": 88.79310657596372,
+      "b_time_start": 93.5764172335601,
+      "b_time_end": 108.01922902494331,
+      "length": 6,
+      "similarity": 0.7915,
+      "harmonic_score": 0.7915,
+      "lyric_score": 0.7059,
+      "combined_score": 0.7675,
+      "type": "progression répétée",
+      "lyric_match": {
+        "a_index": 7,
+        "b_index": 11,
+        "a_phrase_end": 8,
+        "b_phrase_end": 11,
+        "a_time_start": 70.48,
+        "a_time_end": 81.74,
+        "b_time_start": 102.58,
+        "b_time_end": 114.68,
+        "text_a": "Loiseaux sur Tendre la neige, tu ne viendras pas ce soir",
+        "text_b": "C 'est odieux, silence, blanche solitude Tu ne viendras pas ce soir,",
+        "similarity": 0.7059,
+        "raw_similarity": 0.7167,
+        "window_phrases": 2
+      }
+    },
+    {
+      "a_measure_start": 58,
+      "a_measure_end": 63,
+      "b_measure_start": 66,
+      "b_measure_end": 71,
+      "a_time_start": 142.38476190476192,
+      "a_time_end": 156.87401360544217,
+      "b_time_start": 161.51800453514738,
+      "b_time_end": 175.44997732426305,
+      "length": 6,
+      "similarity": 0.9122,
+      "harmonic_score": 0.9122,
+      "lyric_score": 0.0,
+      "combined_score": 0.6568,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 57,
+      "a_measure_end": 62,
+      "b_measure_start": 69,
+      "b_measure_end": 74,
+      "a_time_start": 139.9002267573696,
+      "a_time_end": 154.55201814058958,
+      "b_time_start": 168.48399092970521,
+      "b_time_end": 182.95002267573696,
+      "length": 6,
+      "similarity": 0.8045,
+      "harmonic_score": 0.8045,
+      "lyric_score": 0.0,
+      "combined_score": 0.5792,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 61,
+      "a_measure_end": 66,
+      "b_measure_start": 69,
+      "b_measure_end": 74,
+      "a_time_start": 149.88480725623583,
+      "a_time_end": 163.84,
+      "b_time_start": 168.48399092970521,
+      "b_time_end": 182.95002267573696,
+      "length": 6,
+      "similarity": 0.7823,
+      "harmonic_score": 0.7823,
+      "lyric_score": 0.0,
+      "combined_score": 0.5633,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 22,
+      "a_measure_end": 28,
+      "b_measure_start": 57,
+      "b_measure_end": 63,
+      "a_time_start": 54.706213151927436,
+      "a_time_end": 72.00507936507937,
+      "b_time_start": 139.9002267573696,
+      "b_time_end": 156.87401360544217,
+      "length": 7,
+      "similarity": 0.781,
+      "harmonic_score": 0.781,
+      "lyric_score": 0.0,
+      "combined_score": 0.5623,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 55,
+      "a_measure_end": 61,
+      "b_measure_start": 63,
+      "b_measure_end": 69,
+      "a_time_start": 134.9775963718821,
+      "a_time_end": 152.23002267573696,
+      "b_time_start": 154.55201814058958,
+      "b_time_end": 170.80598639455783,
+      "length": 7,
+      "similarity": 0.7726,
+      "harmonic_score": 0.7726,
+      "lyric_score": 0.0,
+      "combined_score": 0.5563,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 24,
+      "a_measure_end": 29,
+      "b_measure_start": 63,
+      "b_measure_end": 68,
+      "a_time_start": 59.72172335600907,
+      "a_time_end": 74.41995464852607,
+      "b_time_start": 154.55201814058958,
+      "b_time_end": 168.48399092970521,
+      "length": 6,
+      "similarity": 0.7659,
+      "harmonic_score": 0.7659,
+      "lyric_score": 0.0,
+      "combined_score": 0.5514,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 22,
+      "a_measure_end": 27,
+      "b_measure_start": 69,
+      "b_measure_end": 74,
+      "a_time_start": 54.706213151927436,
+      "a_time_end": 69.59020408163265,
+      "b_time_start": 168.48399092970521,
+      "b_time_end": 182.95002267573696,
+      "length": 6,
+      "similarity": 0.7393,
+      "harmonic_score": 0.7393,
+      "lyric_score": 0.0,
+      "combined_score": 0.5323,
+      "type": "progression répétée",
+      "lyric_match": null
+    }
+  ],
+  "visual_blocks": [
+    {
+      "index": 0,
+      "name": "Bloc A",
+      "cluster": "A",
+      "measure_start": 1,
+      "measure_end": 7,
+      "time_start": 0.0,
+      "time_end": 20.688979591836734,
+      "harmonic_repeat": 0.0,
+      "lyrics": "Tendre la neige, tu ne viendras pas ce soir Tendre la neige et mon cœur s'habille de moi Ce soyeux cortège,",
+      "chord_patterns": [
+        "D|Dm|D|Gm",
+        "Em|A|Em",
+        "A",
+        "Em|A|Gm",
+        "A",
+        "D|Dm",
+        "D|Dm|Gm"
+      ],
+      "visual_only": true,
+      "includes_preroll": true,
+      "includes_postroll": false
+    },
+    {
+      "index": 1,
+      "name": "Bloc B",
+      "cluster": "B",
+      "measure_start": 8,
+      "measure_end": 14,
+      "time_start": 20.688979591836734,
+      "time_end": 37.871746031746035,
+      "harmonic_repeat": 0.395,
+      "lyrics": "cortège, tout en larmes blanches Loiseaux sur la branche, fleur le sort il est jeu Tu ne viendras",
+      "chord_patterns": [
+        "Gm",
+        "Gm",
+        "Dm",
+        "Dm|F|Am|Em",
+        "A|G|A",
+        "A|Dm",
+        "Dm|Gm|D|G"
+      ],
+      "visual_only": true,
+      "includes_preroll": false,
+      "includes_postroll": false
+    },
+    {
+      "index": 2,
+      "name": "Bloc C",
+      "cluster": "C",
+      "measure_start": 15,
+      "measure_end": 20,
+      "time_start": 37.871746031746035,
+      "time_end": 52.2681179138322,
+      "harmonic_repeat": 0.3809,
+      "lyrics": "viendras pas ce soir, crie mon désespoir Mets -t -on de la neige, impassible",
+      "chord_patterns": [
+        "G|Gm|G|Gm",
+        "Em|Gm",
+        "Em|Dm",
+        "Am|Dm",
+        "Dm|A",
+        "Gm|Em|A"
+      ],
+      "visual_only": true,
+      "includes_preroll": false,
+      "includes_postroll": false
+    },
+    {
+      "index": 3,
+      "name": "Bloc D",
+      "cluster": "D",
+      "measure_start": 21,
+      "measure_end": 29,
+      "time_start": 52.2681179138322,
+      "time_end": 74.41995464852607,
+      "harmonic_repeat": 0.398,
+      "lyrics": "impassible ma neige Loiseaux sur",
+      "chord_patterns": [
+        "A|Dm",
+        "Am|Dm|C",
+        "C|Em|Gm",
+        "Gm|Dm",
+        "Dm|A",
+        "A|Dm|D",
+        "Gm",
+        "Gm|Dm",
+        "Em|A|G"
+      ],
+      "visual_only": true,
+      "includes_preroll": false,
+      "includes_postroll": false
+    },
+    {
+      "index": 4,
+      "name": "Bloc E",
+      "cluster": "E",
+      "measure_start": 30,
+      "measure_end": 38,
+      "time_start": 74.41995464852607,
+      "time_end": 95.96807256235827,
+      "harmonic_repeat": 0.4613,
+      "lyrics": "Tendre la neige, tu ne viendras pas ce soir Tendre la neige, tout est blanc, tu désespoir Riste certitude,",
+      "chord_patterns": [
+        "Dm|Gm",
+        "Gm",
+        "Gm",
+        "Dm|D",
+        "Dm|Gm",
+        "Em|A|Em",
+        "Em|A",
+        "Dm|D",
+        "Dm|D"
+      ],
+      "visual_only": true,
+      "includes_preroll": false,
+      "includes_postroll": false
+    },
+    {
+      "index": 5,
+      "name": "Bloc B",
+      "cluster": "B",
+      "measure_start": 39,
+      "measure_end": 45,
+      "time_start": 95.96807256235827,
+      "time_end": 113.01151927437641,
+      "harmonic_repeat": 0.8172,
+      "lyrics": "certitude, le froid est l'absence C'est odieux, silence, blanche solitude Tu ne viendras",
+      "chord_patterns": [
+        "Gm",
+        "Gm",
+        "Dm",
+        "Dm|Em",
+        "A|Em|A",
+        "A|D|Dm",
+        "Dm|D|Dm|Gm"
+      ],
+      "visual_only": true,
+      "includes_preroll": false,
+      "includes_postroll": false
+    },
+    {
+      "index": 6,
+      "name": "Bloc C",
+      "cluster": "C",
+      "measure_start": 46,
+      "measure_end": 51,
+      "time_start": 113.01151927437641,
+      "time_end": 127.57043083900227,
+      "harmonic_repeat": 0.8482,
+      "lyrics": "viendras pas ce soir, ne crie mon désespoir Mets -t -on de la neige, impassible",
+      "chord_patterns": [
+        "Gm|G|Gm",
+        "Em|G|Gm",
+        "Em|Dm",
+        "Am|Dm",
+        "Dm|A|C#m",
+        "Gm|D|Em"
+      ],
+      "visual_only": true,
+      "includes_preroll": false,
+      "includes_postroll": false
+    },
+    {
+      "index": 7,
+      "name": "Bloc F",
+      "cluster": "F",
+      "measure_start": 52,
+      "measure_end": 57,
+      "time_start": 127.57043083900227,
+      "time_end": 142.38476190476192,
+      "harmonic_repeat": 0.4718,
+      "lyrics": "impassible ma neige Mets -t -on de la neige, impassible ma neige",
+      "chord_patterns": [
+        "A|G|Dm",
+        "Am|Dm|Gm",
+        "G|A|C#",
+        "D|Dm|Em",
+        "C#m|A|Dm",
+        "Am|Dm"
+      ],
+      "visual_only": true,
+      "includes_preroll": false,
+      "includes_postroll": false
+    },
+    {
+      "index": 8,
+      "name": "Bloc G",
+      "cluster": "G",
+      "measure_start": 58,
+      "measure_end": 63,
+      "time_start": 142.38476190476192,
+      "time_end": 156.87401360544217,
+      "harmonic_repeat": 0.5415,
+      "lyrics": "La la la la la la la la la la....",
+      "chord_patterns": [
+        "Dm|Gm",
+        "Gm|D|Dm",
+        "D|Em|A",
+        "A|D|Dm",
+        "D|Gm",
+        "Gm|D|Dm"
+      ],
+      "visual_only": true,
+      "includes_preroll": false,
+      "includes_postroll": false
+    },
+    {
+      "index": 9,
+      "name": "Bloc H",
+      "cluster": "H",
+      "measure_start": 64,
+      "measure_end": 71,
+      "time_start": 156.87401360544217,
+      "time_end": 175.44997732426305,
+      "harmonic_repeat": 0.562,
+      "lyrics": "",
+      "chord_patterns": [
+        "D|A",
+        "A|D|Dm",
+        "D|Gm",
+        "Gm|D|Dm",
+        "D|A|Em|A",
+        "A|D|Dm",
+        "Dm|G|Gm",
+        "Gm|D|Dm"
+      ],
+      "visual_only": true,
+      "includes_preroll": false,
+      "includes_postroll": false
+    },
+    {
+      "index": 10,
+      "name": "Bloc I",
+      "cluster": "I",
+      "measure_start": 72,
+      "measure_end": 75,
+      "time_start": 175.44997732426305,
+      "time_end": 185.3648979591837,
+      "harmonic_repeat": 0.3111,
+      "lyrics": "",
+      "chord_patterns": [
+        "Dm|A|Em|A",
+        "A|Dm",
+        "Gm",
+        "Dm"
+      ],
+      "visual_only": true,
+      "includes_preroll": false,
+      "includes_postroll": false
+    }
+  ]
+}
