@@ -1,115 +1,167 @@
-# EZScore Stem Lab R8
+# EZScore Stem Lab R9 — architecture modulaire
 
-R8 consolide la détection structurelle avant d'ajouter de nouveaux signaux.
+R9 ne change pas volontairement le principe validé de R8.1.  
+Le but est de transformer le prototype en composants réutilisables par EZScore.
 
-## 1. Pré-roll / post-roll corrigés
-
-Les paroles peuvent commencer avant la première mesure détectée.
-
-R8 étend uniquement l'enveloppe visuelle du premier bloc :
+## Architecture
 
 ```text
-premier mot chanté
-↓
-Bloc A
-↓
-mesure 1
+stem_lab.py
+│
+└── stemlab/
+    ├── config.py
+    ├── io.py
+    │
+    ├── models/
+    │   └── timelines.py
+    │
+    ├── analysis/
+    │   ├── separation.py
+    │   ├── lyrics.py
+    │   ├── rhythm.py
+    │   ├── harmony.py
+    │   ├── lyrics_structure.py
+    │   ├── structure.py
+    │   └── structure_engine.py
+    │
+    └── player/
+        └── webaudio.py
 ```
 
-Aucun timestamp canonique n'est déplacé.
+## Responsabilités
 
-Même principe pour un éventuel post-roll après la dernière mesure.
-
-## 2. Timeline paroles complète
-
-R7 pouvait sélectionner un mauvais cache Whisper si plusieurs modèles existaient.
-
-R8 choisit désormais automatiquement le cache le plus complet selon :
+### `analysis/separation.py`
 
 ```text
-1. timestamp du dernier mot
-2. nombre de mots utilisables
-3. date de modification
+audio original
+→ Demucs
+→ vocals / drums / bass / other
 ```
 
-Les mots vides et les mots à durée nulle sont exclus de l'analyse structurelle.
+Le cache reste indexé par hash audio.
 
-L'interface affiche la timeline réellement utilisée :
+### `analysis/lyrics.py`
 
 ```text
-nombre de mots
-couverture jusqu'à X secondes
-nom du fichier cache
+source audio
+→ Whisper
+→ texte
+→ mots horodatés
 ```
 
-## 3. Répétitions textuelles plus tolérantes
-
-R7 comparait essentiellement phrase contre phrase.
-
-R8 compare aussi des fenêtres de plusieurs phrases :
+L'API `transcribe_audio()` est générique et prépare la prochaine étape :
 
 ```text
-1 à 4 phrases consécutives
+original + vocals
+→ comparaison / fusion
 ```
 
-Cela permet de reconnaître un refrain même si Whisper découpe :
+La fonction actuelle `transcribe_vocals()` reste compatible avec R8.
+
+### `analysis/harmony.py`
+
+Expose l'analyse harmonique validée :
 
 ```text
-occurrence 1 : ligne A + ligne B + ligne C
-occurrence 2 : ligne A + ligne B | ligne C
+other = harmonie principale
+bass  = indice secondaire de fondamentale
+drums = beat tracking
 ```
 
-Les petites erreurs lexicales Whisper restent tolérées via similarité floue.
-
-## 4. Blocs + paroles
-
-La vue conserve :
+### `analysis/lyrics_structure.py`
 
 ```text
-Bloc A / Bloc B / ...
-mesures
-timestamps
-motifs d'accords
+mots
+→ phrases
+→ motifs textuels répétés
+```
+
+### `analysis/structure.py`
+
+Fusion non destructive :
+
+```text
+motifs harmoniques
++
+motifs textuels
+→ candidats structurels
+→ blocs visuels
+```
+
+Ce module ne déplace aucun timestamp.
+
+### `models/timelines.py`
+
+Contrats communs pour la future intégration EZScore.
+
+Règle fondamentale :
+
+```text
+TOUS les timestamps sont exprimés en secondes
+sur l'audio ORIGINAL.
+```
+
+Les timelines sont indépendantes.
+
+### `player/webaudio.py`
+
+Lecteur WebAudio à horloge unique :
+
+```text
+original + vocals + drums + bass + other
+```
+
+Aucun micro-seek de resynchronisation périodique.
+
+## Simplification R9
+
+La traduction et eSpeak/phonemizer ont été retirés du chemin principal.
+
+Ils n'apportaient rien au moteur structurel actuellement validé.
+
+Le pipeline reste concentré sur :
+
+```text
+stems
+harmonie
+rythme
 paroles
+répétitions
+blocs
 ```
 
-Les paroles sont présentées sur plusieurs lignes lisibles au lieu d'une seule
-ligne continue.
+## Compatibilité des données
 
-## 5. Principes inchangés
+R9 conserve :
 
 ```text
-harmonie = signal principal
-paroles répétées = confirmation structurelle
-blocs = visualisation non destructive
+stem_lab_data/<audio_hash>/
 ```
 
-Aucun timestamp d'accord, de mot ou d'audio n'est modifié.
+et relit les stems, previews, caches Whisper et `structure_analysis.json`
+déjà produits par R8.1.
+
+Il n'est donc pas nécessaire de refaire Demucs.
 
 ## Lancement
 
 ```powershell
 python -m pip install -r .\requirements.txt
-python -m py_compile .\structure_lab.py
-python -m py_compile .\stem_lab.py
+python -m compileall .\stemlab .\stem_lab.py
 python -m streamlit run .\stem_lab.py --server.port 8502
 ```
 
+## Étape suivante
 
-## Correctif R8.1
-
-Correction d'un oubli d'import Python dans `stem_lab.py` :
-
-```python
-import re
-```
-
-Cet oubli provoquait :
+Une fois ce checkpoint validé :
 
 ```text
-NameError: name 're' is not defined
+Whisper original
++
+Whisper vocals
+→ fusion de la meilleure timeline paroles
 ```
 
-dans la vue `Blocs + paroles`.
+Puis cette timeline alimentera le même moteur `lyrics_structure.py`.
 
-Aucun changement algorithmique par rapport à R8.
+Cette séparation est volontairement alignée sur la future migration vers EZScore.
