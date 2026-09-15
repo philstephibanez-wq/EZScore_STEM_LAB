@@ -1,0 +1,6 @@
+streamlit
+demucs
+openai-whisper
+torch
+librosa
+numpy
