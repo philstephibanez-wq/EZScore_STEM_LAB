@@ -333,33 +333,116 @@ def _text_similarity(a: str, b: str) -> float:
 def detect_lyric_repeats(
     phrases: list[dict[str, Any]],
     *,
-    threshold: float = 0.72,
+    threshold: float = 0.66,
+    max_window_phrases: int = 4,
 ) -> list[dict[str, Any]]:
-    """Find repeated lyric phrases, useful as chorus evidence."""
-    matches = []
-    for i, a in enumerate(phrases):
-        if int(a.get("word_count", 0)) < 4:
-            continue
-        for j in range(i + 1, len(phrases)):
-            b = phrases[j]
-            if int(b.get("word_count", 0)) < 4:
+    """Find repeated lyric motifs with tolerant multi-phrase matching.
+
+    Songs often split the same refrain differently on two occurrences because
+    Whisper's pauses/segmentation are not identical. We therefore compare
+    windows of 1..N consecutive phrases, not only phrase-to-phrase equality.
+    """
+    if not phrases:
+        return []
+
+    windows = []
+    for start in range(len(phrases)):
+        for size in range(1, max_window_phrases + 1):
+            end = start + size
+            if end > len(phrases):
+                break
+            chunk = phrases[start:end]
+            word_count = sum(int(p.get("word_count", 0) or 0) for p in chunk)
+            if word_count < 5:
                 continue
+
+            text = " ".join(str(p.get("text", "") or "") for p in chunk).strip()
+            normalized = " ".join(
+                str(p.get("normalized", "") or "")
+                for p in chunk
+            ).strip()
+
+            duration = float(chunk[-1]["time_end"]) - float(chunk[0]["time_start"])
+            if duration <= 0.5 or duration > 35.0:
+                continue
+
+            windows.append({
+                "phrase_start": start,
+                "phrase_end": end - 1,
+                "size": size,
+                "time_start": float(chunk[0]["time_start"]),
+                "time_end": float(chunk[-1]["time_end"]),
+                "text": text,
+                "normalized": normalized,
+                "word_count": word_count,
+            })
+
+    matches = []
+    for i, a in enumerate(windows):
+        for j in range(i + 1, len(windows)):
+            b = windows[j]
+
+            # Must be genuinely separate occurrences.
+            if b["time_start"] < a["time_end"] + 3.0:
+                continue
+
+            # Similar phrase-window sizes only; Whisper may split one extra line.
+            if abs(int(a["size"]) - int(b["size"])) > 1:
+                continue
+
             score = _text_similarity(a["normalized"], b["normalized"])
             if score < threshold:
                 continue
+
+            # Penalize large word-count mismatch, but tolerate recognition errors.
+            wc_a = max(1, int(a["word_count"]))
+            wc_b = max(1, int(b["word_count"]))
+            length_ratio = min(wc_a, wc_b) / max(wc_a, wc_b)
+            adjusted = score * (0.82 + 0.18 * length_ratio)
+
+            if adjusted < threshold:
+                continue
+
             matches.append({
-                "a_index": i,
-                "b_index": j,
+                "a_index": int(a["phrase_start"]),
+                "b_index": int(b["phrase_start"]),
+                "a_phrase_end": int(a["phrase_end"]),
+                "b_phrase_end": int(b["phrase_end"]),
                 "a_time_start": float(a["time_start"]),
                 "a_time_end": float(a["time_end"]),
                 "b_time_start": float(b["time_start"]),
                 "b_time_end": float(b["time_end"]),
                 "text_a": a["text"],
                 "text_b": b["text"],
-                "similarity": round(score, 4),
+                "similarity": round(float(adjusted), 4),
+                "raw_similarity": round(float(score), 4),
+                "window_phrases": max(int(a["size"]), int(b["size"])),
             })
-    matches.sort(key=lambda x: x["similarity"], reverse=True)
-    return matches
+
+    matches.sort(
+        key=lambda x: (
+            x["similarity"],
+            x["window_phrases"],
+            (x["a_time_end"] - x["a_time_start"]),
+        ),
+        reverse=True,
+    )
+
+    # Remove near-duplicate overlapping detections.
+    selected = []
+    for item in matches:
+        duplicate = False
+        for old in selected:
+            if (
+                abs(item["a_time_start"] - old["a_time_start"]) < 3.0
+                and abs(item["b_time_start"] - old["b_time_start"]) < 3.0
+            ):
+                duplicate = True
+                break
+        if not duplicate:
+            selected.append(item)
+
+    return selected[:20]
 
 
 def _interval_overlap(a0: float, a1: float, b0: float, b1: float) -> float:
@@ -472,11 +555,8 @@ def build_visual_blocks(
 ) -> list[dict[str, Any]]:
     """Create a readable non-destructive block proposal.
 
-    This is only a visual/editorial preview:
-    - no audio or word timestamp is moved;
-    - boundaries come from strong repeated harmonic phrases;
-    - nearby competing boundaries are compacted;
-    - similar sections share the same A/B/C family.
+    Visual envelopes may extend before measure 1 / after the last measure to
+    include sung pre-roll/post-roll. Canonical timestamps remain untouched.
     """
     if not measures:
         return []
@@ -499,7 +579,6 @@ def build_visual_blocks(
             pos = max(0, min(n, int(c.get(key, 0))))
             boundary_scores[pos] = max(boundary_scores.get(pos, 0.0), score)
 
-    # Compact nearby boundaries so the preview does not fragment into mini-blocks.
     items = sorted(boundary_scores.items())
     compact: list[tuple[int, float]] = []
     min_gap = 5
@@ -517,11 +596,24 @@ def build_visual_blocks(
 
     boundaries = sorted({p for p, _ in compact} | {0, n})
 
-    # Avoid tiny head/tail.
     if len(boundaries) >= 3 and boundaries[1] < 4:
         boundaries.pop(1)
     if len(boundaries) >= 3 and n - boundaries[-2] < 4:
         boundaries.pop(-2)
+
+    valid_words = []
+    for w in words or []:
+        text = str(w.get("text", "") or "").strip()
+        if not text:
+            continue
+        start = float(w.get("start", 0.0) or 0.0)
+        end = float(w.get("end", start) or start)
+        if end <= start:
+            continue
+        valid_words.append({"text": text, "start": start, "end": end})
+
+    lyric_start = min((w["start"] for w in valid_words), default=None)
+    lyric_end = max((w["end"] for w in valid_words), default=None)
 
     sections = []
     representatives: list[tuple[int, int]] = []
@@ -552,6 +644,12 @@ def build_visual_blocks(
         t0 = float(first.get("time_start", 0.0))
         t1 = float(last.get("time_end", t0))
 
+        # Visual envelope only: preserve sung pre-roll/post-roll.
+        if i == 0 and lyric_start is not None:
+            t0 = min(t0, float(lyric_start))
+        if i == len(boundaries) - 2 and lyric_end is not None:
+            t1 = max(t1, float(lyric_end))
+
         chord_patterns = [
             str(m.get("pattern", "") or "")
             for m in measures[a0:a1]
@@ -566,9 +664,11 @@ def build_visual_blocks(
             "time_start": t0,
             "time_end": t1,
             "harmonic_repeat": round(float(best_score), 4),
-            "lyrics": _measure_interval_text(words or [], t0, t1),
+            "lyrics": _measure_interval_text(valid_words, t0, t1),
             "chord_patterns": chord_patterns,
             "visual_only": True,
+            "includes_preroll": bool(i == 0 and lyric_start is not None and lyric_start < float(first.get("time_start", 0.0))),
+            "includes_postroll": bool(i == len(boundaries) - 2 and lyric_end is not None and lyric_end > float(last.get("time_end", t1))),
         })
 
     return sections

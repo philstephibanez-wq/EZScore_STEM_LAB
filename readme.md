@@ -1,70 +1,92 @@
-# EZScore Stem Lab R7
+# EZScore Stem Lab R8
 
-R7 ajoute une **vue Blocs + paroles**, inspirée d'EZScore.
+R8 consolide la détection structurelle avant d'ajouter de nouveaux signaux.
 
-Le pipeline reste :
+## 1. Pré-roll / post-roll corrigés
+
+Les paroles peuvent commencer avant la première mesure détectée.
+
+R8 étend uniquement l'enveloppe visuelle du premier bloc :
 
 ```text
-other.wav  → harmonie principale
-bass.wav   → indice secondaire de fondamentale
-drums.wav  → tempo / beats
-vocals.wav → Whisper / mots horodatés
+premier mot chanté
+↓
+Bloc A
+↓
+mesure 1
 ```
 
-Puis :
+Aucun timestamp canonique n'est déplacé.
+
+Même principe pour un éventuel post-roll après la dernière mesure.
+
+## 2. Timeline paroles complète
+
+R7 pouvait sélectionner un mauvais cache Whisper si plusieurs modèles existaient.
+
+R8 choisit désormais automatiquement le cache le plus complet selon :
 
 ```text
-motifs harmoniques répétés
-+
-paroles répétées
-→ candidats structurels
-→ blocs visuels
-→ affichage des paroles dans chaque bloc
+1. timestamp du dernier mot
+2. nombre de mots utilisables
+3. date de modification
 ```
 
-## Vue Blocs + paroles
+Les mots vides et les mots à durée nulle sont exclus de l'analyse structurelle.
 
-Chaque bloc affiche :
+L'interface affiche la timeline réellement utilisée :
 
 ```text
-Bloc A · mesures 1–...
+nombre de mots
+couverture jusqu'à X secondes
+nom du fichier cache
+```
+
+## 3. Répétitions textuelles plus tolérantes
+
+R7 comparait essentiellement phrase contre phrase.
+
+R8 compare aussi des fenêtres de plusieurs phrases :
+
+```text
+1 à 4 phrases consécutives
+```
+
+Cela permet de reconnaître un refrain même si Whisper découpe :
+
+```text
+occurrence 1 : ligne A + ligne B + ligne C
+occurrence 2 : ligne A + ligne B | ligne C
+```
+
+Les petites erreurs lexicales Whisper restent tolérées via similarité floue.
+
+## 4. Blocs + paroles
+
+La vue conserve :
+
+```text
+Bloc A / Bloc B / ...
+mesures
 timestamps
-motifs d'accords par mesure
-paroles appartenant à l'intervalle temporel du bloc
+motifs d'accords
+paroles
 ```
 
-Les paroles sont présentées dans un panneau visuel avec une barre bleue,
-proche du principe de lecture d'EZScore.
+Les paroles sont présentées sur plusieurs lignes lisibles au lieu d'une seule
+ligne continue.
 
-## Important
-
-Les blocs sont **strictement visuels** :
+## 5. Principes inchangés
 
 ```text
-aucun timestamp de mot déplacé
-aucun timestamp d'accord déplacé
-aucune modification du fichier audio
+harmonie = signal principal
+paroles répétées = confirmation structurelle
+blocs = visualisation non destructive
 ```
 
-Les frontières sont proposées à partir des motifs harmoniques forts.
+Aucun timestamp d'accord, de mot ou d'audio n'est modifié.
 
-Les sections harmoniquement similaires reçoivent le même identifiant :
-
-```text
-Bloc A
-Bloc B
-Bloc A
-...
-```
-
-## Compatibilité avec R6
-
-Si `structure_analysis.json` a été généré avec R6 et ne contient pas encore
-`visual_blocks`, R7 les reconstruit automatiquement à l'affichage.
-
-Il n'est donc pas obligatoire de refaire immédiatement l'analyse.
-
-## Installation
+## Lancement
 
 ```powershell
 python -m pip install -r .\requirements.txt
@@ -72,14 +94,3 @@ python -m py_compile .\structure_lab.py
 python -m py_compile .\stem_lab.py
 python -m streamlit run .\stem_lab.py --server.port 8502
 ```
-
-## Fichiers
-
-```text
-stem_lab.py
-structure_lab.py
-requirements.txt
-readme.md
-```
-
-Ce prototype ne modifie toujours pas EZScore principal.

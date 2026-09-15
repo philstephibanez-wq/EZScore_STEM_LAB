@@ -482,33 +482,80 @@ def _words_dataframe_rows(words: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 
-def latest_cached_words(work_dir: Path) -> list[dict[str, Any]]:
-    """Return the most useful cached Whisper word timeline for the player."""
+def latest_cached_speech_payload(work_dir: Path) -> dict[str, Any] | None:
+    """Return the best cached Whisper payload for downstream structure analysis.
+
+    Prefer the most complete timeline (latest word end + word count), then mtime.
+    This avoids accidentally selecting an older/partial cache just because its
+    model name happens to sort first.
+    """
     root = work_dir / SPEECH_CACHE_DIRNAME
     if not root.is_dir():
-        return []
+        return None
 
-    preferred = ["whisper_small.json", "whisper_base.json", "whisper_tiny.json"]
-    candidates = [root / name for name in preferred]
-    candidates += sorted(
-        root.glob("whisper_*.json"),
-        key=lambda p: p.stat().st_mtime_ns,
-        reverse=True,
-    )
-
-    seen = set()
-    for path in candidates:
-        if path in seen or not path.is_file():
+    candidates = []
+    for path in root.glob("whisper_*.json"):
+        if not path.is_file():
             continue
-        seen.add(path)
         try:
             payload = json.loads(path.read_text(encoding="utf-8"))
             words = list(payload.get("words", []) or [])
-            if words:
-                return words
+            if not words:
+                continue
+            valid_words = []
+            latest_end = 0.0
+            for item in words:
+                text = str(item.get("text", "") or "").strip()
+                if not text:
+                    continue
+                start = float(item.get("start", 0.0) or 0.0)
+                end = float(item.get("end", start) or start)
+                # Keep zero-duration items out of downstream structure analysis.
+                if end <= start:
+                    continue
+                valid_words.append(item)
+                latest_end = max(latest_end, end)
+
+            if not valid_words:
+                continue
+
+            candidates.append({
+                "path": path,
+                "payload": payload,
+                "valid_words": valid_words,
+                "latest_end": latest_end,
+                "word_count": len(valid_words),
+                "mtime": path.stat().st_mtime_ns,
+            })
         except Exception:
             continue
-    return []
+
+    if not candidates:
+        return None
+
+    # Coverage first, then number of usable words, then recency.
+    candidates.sort(
+        key=lambda item: (
+            float(item["latest_end"]),
+            int(item["word_count"]),
+            int(item["mtime"]),
+        ),
+        reverse=True,
+    )
+    best = candidates[0]
+    payload = dict(best["payload"])
+    payload["words"] = best["valid_words"]
+    payload["_cache_path"] = str(best["path"])
+    payload["_coverage_end"] = float(best["latest_end"])
+    payload["_usable_word_count"] = int(best["word_count"])
+    return payload
+
+
+def latest_cached_words(work_dir: Path) -> list[dict[str, Any]]:
+    payload = latest_cached_speech_payload(work_dir)
+    if not payload:
+        return []
+    return list(payload.get("words", []) or [])
 
 
 def render_speech_analysis(
@@ -1270,7 +1317,15 @@ def render_structure_analysis(
         )
         return
 
-    words = latest_cached_words(work_dir)
+    speech_payload = latest_cached_speech_payload(work_dir)
+    words = list((speech_payload or {}).get("words", []) or [])
+    if speech_payload:
+        st.caption(
+            "Timeline paroles utilisée : "
+            f"{int(speech_payload.get('_usable_word_count', len(words)))} mots · "
+            f"couverture jusqu'à {float(speech_payload.get('_coverage_end', 0.0)):.1f}s · "
+            f"{Path(str(speech_payload.get('_cache_path', ''))).name}"
+        )
     if not words:
         st.info(
             "Aucune analyse Whisper en cache : l'analyse harmonique reste "
@@ -1370,6 +1425,16 @@ def render_structure_analysis(
         f"{len(payload.get('lyric_repeats', []))} répétitions de paroles."
     )
 
+    lyric_repeats = list(payload.get("lyric_repeats", []) or [])
+    if lyric_repeats:
+        best_repeat = lyric_repeats[0]
+        st.info(
+            "Motif de paroles répété détecté · "
+            f"similarité {float(best_repeat.get('similarity', 0.0)):.2f} · "
+            f"{float(best_repeat.get('a_time_start', 0.0)):.1f}s ↔ "
+            f"{float(best_repeat.get('b_time_start', 0.0)):.1f}s"
+        )
+
     candidates = list(payload.get("candidates", []) or [])
     if not candidates:
         st.warning(
@@ -1447,11 +1512,15 @@ def render_structure_analysis(
                     )
 
                 if lyrics:
+                    # Readable lyric lines: sentence-ish breaks without moving timestamps.
+                    lyric_lines = re.split(r"(?<=[.!?])\s+|\s{2,}", lyrics)
+                    lyric_lines = [line.strip() for line in lyric_lines if line.strip()]
+                    lyric_html = "<br>".join(lyric_lines)
                     st.markdown(
                         "<div style='margin-top:.65rem;padding:.75rem 1rem;"
                         "border-left:4px solid #2f80ed;"
                         "font-size:1.08rem;line-height:1.55;'>"
-                        + lyrics
+                        + lyric_html
                         + "</div>",
                         unsafe_allow_html=True,
                     )
