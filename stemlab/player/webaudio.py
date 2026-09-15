@@ -8,6 +8,8 @@ from pathlib import Path
 
 import streamlit as st
 
+from stemlab.config import STEM_NAMES
+
 def ffmpeg_available() -> bool:
     return shutil.which("ffmpeg") is not None
 

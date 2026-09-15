@@ -165,3 +165,28 @@ Whisper vocals
 Puis cette timeline alimentera le même moteur `lyrics_structure.py`.
 
 Cette séparation est volontairement alignée sur la future migration vers EZScore.
+
+
+## Correctif R9.1
+
+Correction d'une dépendance oubliée lors du découpage modulaire :
+
+```python
+from stemlab.config import STEM_NAMES
+```
+
+dans :
+
+```text
+stemlab/player/webaudio.py
+```
+
+Le bug provoquait :
+
+```text
+NameError: name 'STEM_NAMES' is not defined
+```
+
+au rendu du lecteur.
+
+Aucun changement algorithmique.
