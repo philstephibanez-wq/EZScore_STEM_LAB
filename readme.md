@@ -216,3 +216,71 @@ première mesure détectée plus tard
 Aucun timestamp de parole, d'accord, de beat ou de mesure n'est déplacé.
 
 Ce comportement devra être conservé lors de la convergence vers EZScore.
+
+
+# R10 — paroles sur l'audio original
+
+R10 conserve le workflow R9 mais change une seule responsabilité majeure :
+
+```text
+AVANT
+vocals.wav (Demucs)
+→ Whisper
+→ paroles
+
+R10
+audio original MP3/WAV
+→ Whisper
+→ paroles
+```
+
+## Pourquoi
+
+Le test `Tombe la neige` a montré que le stem `vocals.wav` dégrade fortement
+la reconnaissance lexicale (consonnes et mots altérés).
+
+EZScore utilise déjà Whisper sur l'audio original complet et obtient de
+meilleurs résultats.
+
+## Pipeline R10
+
+```text
+Original → Whisper SMALL → paroles + mots horodatés
+Vocals   → réservé à la future mélodie / F0
+Drums    → rythme / beats
+Bass     → fondamentale auxiliaire
+Other    → harmonie / accords
+```
+
+Le modèle Whisper par défaut passe à `small`, comme dans EZScore.
+
+## Cache
+
+Les nouvelles transcriptions sont isolées :
+
+```text
+speech_analysis/whisper_original_small.json
+speech_analysis/whisper_original_base.json
+...
+```
+
+Les anciens caches construits depuis `vocals.wav` peuvent rester sur disque :
+ils ne sont plus sélectionnés silencieusement par le lecteur ni par l'analyse
+structurelle.
+
+## Invariant temporel
+
+Tous les timestamps Whisper restent relatifs à l'audio original.
+
+Le chant peut commencer avant la première mesure détectée. Le pré-roll reste
+conservé sans déplacer les beats, mesures, accords ou paroles.
+
+## Test recommandé
+
+Pour `Tombe la neige` :
+
+1. charger le morceau ;
+2. sélectionner `small` ;
+3. cliquer `Analyser les paroles` ;
+4. vérifier le texte exporté ;
+5. seulement ensuite relancer `Analyser les motifs structurels`.

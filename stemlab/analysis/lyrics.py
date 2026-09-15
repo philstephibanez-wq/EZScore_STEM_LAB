@@ -8,14 +8,14 @@ from typing import Any
 from stemlab.config import SPEECH_CACHE_DIRNAME
 
 
-def _speech_cache_path(work_dir: Path, model_name: str, source_name: str = "vocals") -> Path:
+def _speech_cache_path(work_dir: Path, model_name: str, source_name: str = "original") -> Path:
     safe_model = "".join(ch if ch.isalnum() or ch in "._-" else "_" for ch in str(model_name))
     safe_source = "".join(ch if ch.isalnum() or ch in "._-" else "_" for ch in str(source_name))
     root = work_dir / SPEECH_CACHE_DIRNAME
     root.mkdir(parents=True, exist_ok=True)
 
     # Backward compatibility: vocals cache keeps the historical filename.
-    if safe_source == "vocals":
+    if safe_source in {"vocals", "demucs-vocals"}:
         return root / f"whisper_{safe_model}.json"
     return root / f"whisper_{safe_source}_{safe_model}.json"
 
@@ -23,7 +23,7 @@ def _speech_cache_path(work_dir: Path, model_name: str, source_name: str = "voca
 def load_speech_cache(
     work_dir: Path,
     model_name: str,
-    source_name: str = "vocals",
+    source_name: str = "original",
 ) -> dict[str, Any] | None:
     path = _speech_cache_path(work_dir, model_name, source_name)
     if not path.is_file():
@@ -38,7 +38,7 @@ def save_speech_cache(
     work_dir: Path,
     model_name: str,
     payload: dict[str, Any],
-    source_name: str = "vocals",
+    source_name: str = "original",
 ) -> Path:
     path = _speech_cache_path(work_dir, model_name, source_name)
     tmp = path.with_suffix(".tmp")
@@ -122,22 +122,51 @@ def transcribe_vocals(vocals_path: Path, *, model_name: str) -> dict[str, Any]:
     )
 
 
-def latest_cached_speech_payload(work_dir: Path) -> dict[str, Any] | None:
-    """Select the cached timeline with the best actual temporal coverage."""
+def _is_lexical_text(text: str) -> bool:
+    import re
+    return bool(re.search(r"[A-Za-zÀ-ÖØ-öø-ÿ0-9]", str(text or "")))
+
+
+def latest_cached_speech_payload(
+    work_dir: Path,
+    source_name: str = "original",
+) -> dict[str, Any] | None:
+    """Select the best cached speech timeline for one explicit source.
+
+    R10 invariant:
+    - lyrics source = original uploaded audio;
+    - Demucs vocals are NOT silently substituted for lyrics.
+    """
     root = work_dir / SPEECH_CACHE_DIRNAME
     if not root.is_dir():
         return None
 
+    wanted = str(source_name or "original").strip().lower()
     candidates = []
+
     for path in root.glob("whisper_*.json"):
         if not path.is_file():
             continue
         try:
             payload = json.loads(path.read_text(encoding="utf-8"))
+            payload_source = str(payload.get("source", "") or "").strip().lower()
+
+            # Historical R8/R9 caches had no explicit source and were produced
+            # from vocals.wav. They must never override an R10 original cache.
+            if wanted == "original":
+                if payload_source not in {"original", "source", "audio-original"}:
+                    continue
+            elif wanted in {"vocals", "demucs-vocals"}:
+                if payload_source not in {"vocals", "demucs-vocals", ""}:
+                    continue
+            elif payload_source != wanted:
+                continue
+
             words = list(payload.get("words", []) or [])
             valid_words = []
             latest_end = 0.0
             lexical_words = 0
+            lexical_end = 0.0
 
             for item in words:
                 text = str(item.get("text", "") or "").strip()
@@ -145,12 +174,17 @@ def latest_cached_speech_payload(work_dir: Path) -> dict[str, Any] | None:
                 end = float(item.get("end", start) or start)
                 if not text or end <= start:
                     continue
-                valid_words.append({"start": start, "end": end, "text": text})
+
+                valid_words.append({
+                    "start": start,
+                    "end": end,
+                    "text": text,
+                })
                 latest_end = max(latest_end, end)
 
-                stripped = text.strip(" .…!?,-_'\"")
-                if stripped:
+                if _is_lexical_text(text):
                     lexical_words += 1
+                    lexical_end = max(lexical_end, end)
 
             if not valid_words:
                 continue
@@ -160,6 +194,7 @@ def latest_cached_speech_payload(work_dir: Path) -> dict[str, Any] | None:
                 "payload": payload,
                 "valid_words": valid_words,
                 "latest_end": latest_end,
+                "lexical_end": lexical_end,
                 "word_count": len(valid_words),
                 "lexical_words": lexical_words,
                 "mtime": path.stat().st_mtime_ns,
@@ -170,11 +205,10 @@ def latest_cached_speech_payload(work_dir: Path) -> dict[str, Any] | None:
     if not candidates:
         return None
 
-    # Coverage is important, but avoid preferring a long cache containing only
-    # Whisper "..." hallucinations. Lexical content is the second criterion.
+    # Prefer real lexical coverage, not trailing "..." hallucinations.
     candidates.sort(
         key=lambda item: (
-            float(item["latest_end"]),
+            float(item["lexical_end"]),
             int(item["lexical_words"]),
             int(item["word_count"]),
             int(item["mtime"]),
@@ -186,12 +220,16 @@ def latest_cached_speech_payload(work_dir: Path) -> dict[str, Any] | None:
     payload = dict(best["payload"])
     payload["words"] = best["valid_words"]
     payload["_cache_path"] = str(best["path"])
-    payload["_coverage_end"] = float(best["latest_end"])
+    payload["_coverage_end"] = float(best["lexical_end"])
+    payload["_raw_end"] = float(best["latest_end"])
     payload["_usable_word_count"] = int(best["word_count"])
     payload["_lexical_word_count"] = int(best["lexical_words"])
     return payload
 
 
-def latest_cached_words(work_dir: Path) -> list[dict[str, Any]]:
-    payload = latest_cached_speech_payload(work_dir)
+def latest_cached_words(
+    work_dir: Path,
+    source_name: str = "original",
+) -> list[dict[str, Any]]:
+    payload = latest_cached_speech_payload(work_dir, source_name=source_name)
     return list((payload or {}).get("words", []) or [])

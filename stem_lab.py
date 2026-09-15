@@ -19,7 +19,7 @@ from stemlab.analysis.lyrics import (
     load_speech_cache,
     save_speech_cache,
     torch_device_label,
-    transcribe_vocals,
+    transcribe_audio,
     whisper_available,
 )
 from stemlab.analysis.harmony import (
@@ -40,16 +40,15 @@ from stemlab.player.webaudio import (
 )
 
 
-def render_speech_analysis(*, work_dir: Path, stems: dict[str, Path]) -> None:
+def render_speech_analysis(*, work_dir: Path, source: Path) -> None:
     st.subheader("Analyse des paroles")
     st.caption(
-        "Source actuelle : stem `vocals.wav` Demucs. "
-        "Les timestamps restent exprimés sur l'audio original."
+        "Source : audio original complet. "
+        "Les stems Demucs ne sont pas utilisés pour la reconnaissance des paroles."
     )
 
-    vocals = stems.get("vocals")
-    if vocals is None or not vocals.is_file():
-        st.warning("Stem vocal absent.")
+    if not source.is_file():
+        st.warning("Audio original introuvable.")
         return
 
     if not whisper_available():
@@ -62,22 +61,38 @@ def render_speech_analysis(*, work_dir: Path, stems: dict[str, Path]) -> None:
     model_name = st.selectbox(
         "Modèle Whisper",
         ["tiny", "base", "small"],
-        index=1,
-        help="base = compromis rapide ; small = plus précis mais plus lent.",
+        index=2,
+        help=(
+            "small est le réglage de référence utilisé par EZScore "
+            "pour une meilleure reconnaissance du chant."
+        ),
     )
 
-    st.caption(f"Whisper : {torch_device_label()}")
-    cached = load_speech_cache(work_dir, model_name)
+    st.caption(f"Whisper : {torch_device_label()} · source `original`")
+    cached = load_speech_cache(
+        work_dir,
+        model_name,
+        source_name="original",
+    )
 
     if st.button(
         "Analyser les paroles",
         type="primary",
         width="stretch",
-        key=f"speech_analyse_{model_name}",
+        key=f"speech_analyse_original_{model_name}",
     ):
-        with st.spinner("Whisper analyse le stem vocal…"):
-            payload = transcribe_vocals(vocals, model_name=model_name)
-            save_speech_cache(work_dir, model_name, payload)
+        with st.spinner("Whisper analyse l'audio original…"):
+            payload = transcribe_audio(
+                source,
+                model_name=model_name,
+                source_name="original",
+            )
+            save_speech_cache(
+                work_dir,
+                model_name,
+                payload,
+                source_name="original",
+            )
             cached = payload
         st.rerun()
 
@@ -90,7 +105,8 @@ def render_speech_analysis(*, work_dir: Path, stems: dict[str, Path]) -> None:
     words = list(cached.get("words", []) or [])
 
     st.success(
-        f"Transcription disponible · langue `{language}` · {len(words)} mots."
+        f"Transcription originale disponible · langue `{language}` · "
+        f"{len(words)} mots."
     )
 
     tab_text, tab_words = st.tabs(["Paroles", "Mots horodatés"])
@@ -100,7 +116,7 @@ def render_speech_analysis(*, work_dir: Path, stems: dict[str, Path]) -> None:
             "Texte transcrit",
             value=lyrics,
             height=260,
-            key=f"lyrics_text_{model_name}",
+            key=f"lyrics_text_original_{model_name}",
         )
 
     with tab_words:
@@ -118,6 +134,9 @@ def render_speech_analysis(*, work_dir: Path, stems: dict[str, Path]) -> None:
             st.info("Aucun mot horodaté.")
 
     export_payload = {
+        "engine": str(cached.get("engine", "openai-whisper")),
+        "model": str(cached.get("model", model_name)),
+        "source": "original",
         "language": language,
         "text": lyrics,
         "words": words,
@@ -129,7 +148,6 @@ def render_speech_analysis(*, work_dir: Path, stems: dict[str, Path]) -> None:
         mime="application/json",
         width="stretch",
     )
-
 
 def download_stem_buttons(stems: dict[str, Path]) -> None:
     cols = st.columns(len(STEM_NAMES))
@@ -179,7 +197,7 @@ def render_structure_analysis(
         )
         return
 
-    speech_payload = latest_cached_speech_payload(work_dir)
+    speech_payload = latest_cached_speech_payload(work_dir, source_name="original")
     words = list((speech_payload or {}).get("words", []) or [])
     if speech_payload:
         st.caption(
@@ -476,7 +494,7 @@ def main() -> None:
         st.warning("Les stems ne sont pas encore disponibles. Lance l'extraction.")
         return
 
-    cached_words = latest_cached_words(work_dir)
+    cached_words = latest_cached_words(work_dir, source_name="original")
 
     st.subheader("Lecteur synchronisé")
     st.caption(
@@ -500,7 +518,7 @@ def main() -> None:
     st.subheader("Stems")
     download_stem_buttons(stems)
 
-    render_speech_analysis(work_dir=work_dir, stems=stems)
+    render_speech_analysis(work_dir=work_dir, source=source)
     render_structure_analysis(work_dir=work_dir, stems=stems)
 
     with st.expander("Architecture / emplacements"):
