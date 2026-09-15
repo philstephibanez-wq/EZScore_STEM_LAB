@@ -5,83 +5,83 @@
   "measures": [
     {
       "measure": 1,
-      "time_start": 4.527891156462585,
-      "time_end": 7.082086167800454,
+      "time_start": 4.2260317460317465,
+      "time_end": 6.5712471655328795,
       "beat_chords": [
         "D",
         "Dm",
-        "Gm",
-        "Em"
+        "D",
+        "Gm"
       ],
-      "pattern": "D|Dm|Gm|Em"
+      "pattern": "D|Dm|D|Gm"
     },
     {
       "measure": 2,
-      "time_start": 7.082086167800454,
-      "time_end": 9.450521541950113,
+      "time_start": 6.5712471655328795,
+      "time_end": 8.870022675736962,
       "beat_chords": [
         "Em",
-        "A",
         "Em",
-        "A"
+        "A",
+        "Em"
       ],
-      "pattern": "Em|A|Em|A"
+      "pattern": "Em|A|Em"
     },
     {
       "measure": 3,
-      "time_start": 9.450521541950113,
-      "time_end": 11.72607709750567,
+      "time_start": 8.870022675736962,
+      "time_end": 11.168798185941043,
       "beat_chords": [
         "A",
         "A",
-        "Gm",
-        "Em"
+        "A",
+        "A"
       ],
-      "pattern": "A|Gm|Em"
+      "pattern": "A"
     },
     {
       "measure": 4,
-      "time_start": 11.72607709750567,
-      "time_end": 14.048072562358277,
+      "time_start": 11.168798185941043,
+      "time_end": 13.467573696145125,
       "beat_chords": [
         "Em",
+        "Em",
         "A",
-        "Gm",
-        "A"
+        "Gm"
       ],
-      "pattern": "Em|A|Gm|A"
+      "pattern": "Em|A|Gm"
     },
     {
       "measure": 5,
-      "time_start": 14.048072562358277,
-      "time_end": 16.34684807256236,
+      "time_start": 13.467573696145125,
+      "time_end": 15.789569160997733,
       "beat_chords": [
         "A",
         "A",
         "A",
-        "D"
+        "Gm"
       ],
-      "pattern": "A|D"
+      "pattern": "A|Gm"
     },
     {
       "measure": 6,
-      "time_start": 16.34684807256236,
-      "time_end": 18.784943310657596,
+      "time_start": 15.789569160997733,
+      "time_end": 18.18122448979592,
       "beat_chords": [
+        "D",
         "Dm",
         "Dm",
-        "Dm",
-        "D"
+        "Dm"
       ],
-      "pattern": "Dm|D"
+      "pattern": "D|Dm"
     },
     {
       "measure": 7,
-      "time_start": 18.784943310657596,
-      "time_end": 21.269478458049885,
+      "time_start": 18.18122448979592,
+      "time_end": 20.64253968253968,
       "beat_chords": [
         "Dm",
-        "Gm",
+        "Dm",
         "Gm",
         "Gm"
       ],
@@ -89,8 +89,8 @@
     },
     {
       "measure": 8,
-      "time_start": 21.269478458049885,
-      "time_end": 23.754013605442175,
+      "time_start": 20.64253968253968,
+      "time_end": 23.127074829931974,
       "beat_chords": [
         "Gm",
         "Gm",
@@ -101,20 +101,20 @@
     },
     {
       "measure": 9,
-      "time_start": 23.754013605442175,
-      "time_end": 26.122448979591837,
+      "time_start": 23.127074829931974,
+      "time_end": 25.541950113378686,
       "beat_chords": [
         "Gm",
         "Gm",
         "Gm",
-        "Dm"
+        "Gm"
       ],
-      "pattern": "Gm|Dm"
+      "pattern": "Gm"
     },
     {
       "measure": 10,
-      "time_start": 26.122448979591837,
-      "time_end": 28.421224489795918,
+      "time_start": 25.541950113378686,
+      "time_end": 28.003265306122447,
       "beat_chords": [
         "Dm",
         "Dm",
@@ -125,20 +125,20 @@
     },
     {
       "measure": 11,
-      "time_start": 28.421224489795918,
-      "time_end": 30.812879818594105,
+      "time_start": 28.003265306122447,
+      "time_end": 30.511020408163265,
       "beat_chords": [
         "Dm",
-        "Dm",
-        "Em",
-        "A"
+        "F",
+        "Gm",
+        "Em"
       ],
-      "pattern": "Dm|Em|A"
+      "pattern": "Dm|F|Gm|Em"
     },
     {
       "measure": 12,
-      "time_start": 30.812879818594105,
-      "time_end": 33.18131519274377,
+      "time_start": 30.511020408163265,
+      "time_end": 32.97233560090703,
       "beat_chords": [
         "A",
         "A",
@@ -149,27 +149,27 @@
     },
     {
       "measure": 13,
-      "time_start": 33.18131519274377,
-      "time_end": 35.50331065759637,
+      "time_start": 32.97233560090703,
+      "time_end": 35.456870748299316,
       "beat_chords": [
         "A",
         "A",
-        "Dm",
+        "D",
         "Dm"
       ],
-      "pattern": "A|Dm"
+      "pattern": "A|D|Dm"
     },
     {
       "measure": 14,
-      "time_start": 35.50331065759637,
+      "time_start": 35.456870748299316,
       "time_end": 37.871746031746035,
       "beat_chords": [
         "Dm",
         "Gm",
         "D",
-        "G"
+        "Gm"
       ],
-      "pattern": "Dm|Gm|D|G"
+      "pattern": "Dm|Gm|D|Gm"
     },
     {
       "measure": 15,
@@ -186,18 +186,18 @@
     {
       "measure": 16,
       "time_start": 40.24018140589569,
-      "time_end": 42.63183673469388,
+      "time_end": 42.60861678004535,
       "beat_chords": [
         "Gm",
-        "Gm",
+        "Em",
         "Gm",
         "Gm"
       ],
-      "pattern": "Gm"
+      "pattern": "Gm|Em|Gm"
     },
     {
       "measure": 17,
-      "time_start": 42.63183673469388,
+      "time_start": 42.60861678004535,
       "time_end": 45.023492063492064,
       "beat_chords": [
         "Em",
@@ -213,11 +213,11 @@
       "time_end": 47.4615873015873,
       "beat_chords": [
         "Am",
-        "A",
+        "Am",
         "Dm",
         "Dm"
       ],
-      "pattern": "Am|A|Dm"
+      "pattern": "Am|Dm"
     },
     {
       "measure": 19,
@@ -234,7 +234,7 @@
     {
       "measure": 20,
       "time_start": 49.87646258503401,
-      "time_end": 52.291337868480724,
+      "time_end": 52.2681179138322,
       "beat_chords": [
         "Gm",
         "Gm",
@@ -245,7 +245,7 @@
     },
     {
       "measure": 21,
-      "time_start": 52.291337868480724,
+      "time_start": 52.2681179138322,
       "time_end": 54.706213151927436,
       "beat_chords": [
         "A",
@@ -273,11 +273,11 @@
       "time_end": 59.48952380952381,
       "beat_chords": [
         "C",
-        "Gm",
+        "Em",
         "Gm",
         "Gm"
       ],
-      "pattern": "C|Gm"
+      "pattern": "C|Em|Gm"
     },
     {
       "measure": 24,
@@ -294,18 +294,18 @@
     {
       "measure": 25,
       "time_start": 61.90439909297052,
-      "time_end": 64.2960544217687,
+      "time_end": 64.31927437641724,
       "beat_chords": [
         "Dm",
-        "Am",
+        "A",
         "Em",
         "A"
       ],
-      "pattern": "Dm|Am|Em|A"
+      "pattern": "Dm|A|Em|A"
     },
     {
       "measure": 26,
-      "time_start": 64.2960544217687,
+      "time_start": 64.31927437641724,
       "time_end": 66.64126984126985,
       "beat_chords": [
         "A",
@@ -320,17 +320,17 @@
       "time_start": 66.64126984126985,
       "time_end": 68.96326530612245,
       "beat_chords": [
-        "D",
+        "Dm",
         "Gm",
         "Gm",
         "Gm"
       ],
-      "pattern": "D|Gm"
+      "pattern": "Dm|Gm"
     },
     {
       "measure": 28,
       "time_start": 68.96326530612245,
-      "time_end": 71.37814058956916,
+      "time_end": 71.40136054421768,
       "beat_chords": [
         "Gm",
         "Gm",
@@ -341,8 +341,8 @@
     },
     {
       "measure": 29,
-      "time_start": 71.37814058956916,
-      "time_end": 73.79301587301588,
+      "time_start": 71.40136054421768,
+      "time_end": 73.8162358276644,
       "beat_chords": [
         "Dm",
         "Em",
@@ -353,8 +353,8 @@
     },
     {
       "measure": 30,
-      "time_start": 73.79301587301588,
-      "time_end": 76.20789115646258,
+      "time_start": 73.8162358276644,
+      "time_end": 76.2311111111111,
       "beat_chords": [
         "G",
         "Dm",
@@ -365,20 +365,20 @@
     },
     {
       "measure": 31,
-      "time_start": 76.20789115646258,
-      "time_end": 78.6227664399093,
+      "time_start": 76.2311111111111,
+      "time_end": 78.73886621315192,
       "beat_chords": [
-        "D",
+        "Gm",
         "Gm",
         "Gm",
         "Gm"
       ],
-      "pattern": "D|Gm"
+      "pattern": "Gm"
     },
     {
       "measure": 32,
-      "time_start": 78.6227664399093,
-      "time_end": 81.037641723356,
+      "time_start": 78.73886621315192,
+      "time_end": 81.17696145124717,
       "beat_chords": [
         "Gm",
         "Gm",
@@ -389,15 +389,15 @@
     },
     {
       "measure": 33,
-      "time_start": 81.037641723356,
+      "time_start": 81.17696145124717,
       "time_end": 83.54539682539682,
       "beat_chords": [
         "Gm",
-        "D",
+        "Dm",
         "Dm",
         "Dm"
       ],
-      "pattern": "Gm|D|Dm"
+      "pattern": "Gm|Dm"
     },
     {
       "measure": 34,
@@ -414,7 +414,7 @@
     {
       "measure": 35,
       "time_start": 85.86739229024943,
-      "time_end": 88.14294784580498,
+      "time_end": 88.21260770975057,
       "beat_chords": [
         "Gm",
         "Em",
@@ -425,7 +425,7 @@
     },
     {
       "measure": 36,
-      "time_start": 88.14294784580498,
+      "time_start": 88.21260770975057,
       "time_end": 90.62748299319728,
       "beat_chords": [
         "Em",
@@ -453,7 +453,7 @@
       "time_end": 95.3643537414966,
       "beat_chords": [
         "D",
-        "D",
+        "Dm",
         "Dm",
         "D"
       ],
@@ -515,9 +515,9 @@
         "Em",
         "A",
         "A",
-        "A"
+        "Em"
       ],
-      "pattern": "Em|A"
+      "pattern": "Em|A|Em"
     },
     {
       "measure": 44,
@@ -550,10 +550,10 @@
       "beat_chords": [
         "Gm",
         "Gm",
-        "Em",
+        "E",
         "Gm"
       ],
-      "pattern": "Gm|Em|Gm"
+      "pattern": "Gm|E|Gm"
     },
     {
       "measure": 47,
@@ -594,7 +594,7 @@
     {
       "measure": 50,
       "time_start": 122.09052154195011,
-      "time_end": 124.55183673469388,
+      "time_end": 124.52861678004535,
       "beat_chords": [
         "Dm",
         "Dm",
@@ -605,31 +605,31 @@
     },
     {
       "measure": 51,
-      "time_start": 124.55183673469388,
+      "time_start": 124.52861678004535,
       "time_end": 126.96671201814058,
       "beat_chords": [
         "C#m",
         "Gm",
-        "Gm",
+        "D",
         "Em"
       ],
-      "pattern": "C#m|Gm|Em"
+      "pattern": "C#m|Gm|D|Em"
     },
     {
       "measure": 52,
       "time_start": 126.96671201814058,
-      "time_end": 129.42802721088435,
+      "time_end": 129.40480725623584,
       "beat_chords": [
         "Em",
-        "C#m",
-        "G",
+        "A",
+        "Dm",
         "Dm"
       ],
-      "pattern": "Em|C#m|G|Dm"
+      "pattern": "Em|A|Dm"
     },
     {
       "measure": 53,
-      "time_start": 129.42802721088435,
+      "time_start": 129.40480725623584,
       "time_end": 131.86612244897958,
       "beat_chords": [
         "Dm",
@@ -645,7 +645,7 @@
       "time_end": 134.3738775510204,
       "beat_chords": [
         "Gm",
-        "Gm",
+        "G",
         "G",
         "A"
       ],
@@ -658,10 +658,10 @@
       "beat_chords": [
         "C#",
         "D",
-        "Gm",
+        "Dm",
         "Em"
       ],
-      "pattern": "C#|D|Gm|Em"
+      "pattern": "C#|D|Dm|Em"
     },
     {
       "measure": 56,
@@ -690,7 +690,7 @@
     {
       "measure": 58,
       "time_start": 141.7578231292517,
-      "time_end": 144.31201814058957,
+      "time_end": 144.33523809523808,
       "beat_chords": [
         "Dm",
         "Dm",
@@ -701,7 +701,7 @@
     },
     {
       "measure": 59,
-      "time_start": 144.31201814058957,
+      "time_start": 144.33523809523808,
       "time_end": 146.9126530612245,
       "beat_chords": [
         "Gm",
@@ -754,10 +754,10 @@
       "beat_chords": [
         "Gm",
         "Gm",
-        "D",
+        "Dm",
         "Dm"
       ],
-      "pattern": "Gm|D|Dm"
+      "pattern": "Gm|Dm"
     },
     {
       "measure": 64,
@@ -850,15 +850,15 @@
       "beat_chords": [
         "Gm",
         "Gm",
-        "Dm",
+        "D",
         "Dm"
       ],
-      "pattern": "Gm|Dm"
+      "pattern": "Gm|D|Dm"
     },
     {
       "measure": 72,
       "time_start": 174.86947845804988,
-      "time_end": 177.14503401360545,
+      "time_end": 177.1914739229025,
       "beat_chords": [
         "Dm",
         "Dm",
@@ -869,7 +869,7 @@
     },
     {
       "measure": 73,
-      "time_start": 177.14503401360545,
+      "time_start": 177.1914739229025,
       "time_end": 179.49024943310658,
       "beat_chords": [
         "A",
@@ -885,16 +885,16 @@
       "time_end": 181.85868480725622,
       "beat_chords": [
         "Dm",
-        "D",
+        "Dm",
         "Gm",
         "Gm"
       ],
-      "pattern": "Dm|D|Gm"
+      "pattern": "Dm|Gm"
     },
     {
       "measure": 75,
       "time_start": 181.85868480725622,
-      "time_end": 184.18068027210884,
+      "time_end": 184.20390022675738,
       "beat_chords": [
         "Gm",
         "Gm",
@@ -905,75 +905,27 @@
     },
     {
       "measure": 76,
-      "time_start": 184.18068027210884,
-      "time_end": 185.34167800453517,
+      "time_start": 184.20390022675738,
+      "time_end": 185.31845804988663,
       "beat_chords": [
         "Dm",
-        "D"
+        "Dm"
       ],
-      "pattern": "Dm|D"
+      "pattern": "Dm"
     }
   ],
   "harmonic_motifs": [
     {
-      "a_measure_start": 5,
-      "a_measure_end": 10,
-      "b_measure_start": 37,
-      "b_measure_end": 42,
-      "a_time_start": 14.048072562358277,
-      "a_time_end": 28.421224489795918,
-      "b_time_start": 90.62748299319728,
-      "b_time_end": 104.95419501133787,
-      "length": 6,
-      "similarity": 0.9243
-    },
-    {
-      "a_measure_start": 60,
-      "a_measure_end": 66,
-      "b_measure_start": 68,
-      "b_measure_end": 74,
-      "a_time_start": 146.9126530612245,
-      "a_time_end": 163.25950113378684,
-      "b_time_start": 165.58149659863946,
-      "b_time_end": 181.85868480725622,
-      "length": 7,
-      "similarity": 0.8736
-    },
-    {
-      "a_measure_start": 63,
-      "a_measure_end": 68,
-      "b_measure_start": 71,
-      "b_measure_end": 76,
-      "a_time_start": 153.97151927437642,
-      "a_time_end": 167.90349206349205,
-      "b_time_start": 172.5474829931973,
-      "b_time_end": 185.34167800453517,
-      "length": 6,
-      "similarity": 0.824
-    },
-    {
-      "a_measure_start": 59,
-      "a_measure_end": 64,
-      "b_measure_start": 71,
-      "b_measure_end": 76,
-      "a_time_start": 144.31201814058957,
-      "a_time_end": 158.61551020408163,
-      "b_time_start": 172.5474829931973,
-      "b_time_end": 185.34167800453517,
-      "length": 6,
-      "similarity": 0.8146
-    },
-    {
-      "a_measure_start": 57,
+      "a_measure_start": 58,
       "a_measure_end": 63,
-      "b_measure_start": 65,
+      "b_measure_start": 66,
       "b_measure_end": 71,
-      "a_time_start": 139.2732879818594,
+      "a_time_start": 141.7578231292517,
       "a_time_end": 156.29351473922904,
-      "b_time_start": 158.61551020408163,
+      "b_time_start": 160.93750566893425,
       "b_time_end": 174.86947845804988,
-      "length": 7,
-      "similarity": 0.8139
+      "length": 6,
+      "similarity": 0.8543
     },
     {
       "a_measure_start": 23,
@@ -981,47 +933,23 @@
       "b_measure_start": 70,
       "b_measure_end": 75,
       "a_time_start": 57.09786848072562,
-      "a_time_end": 71.37814058956916,
+      "a_time_end": 71.40136054421768,
       "b_time_start": 170.22548752834467,
-      "b_time_end": 184.18068027210884,
+      "b_time_end": 184.20390022675738,
       "length": 6,
-      "similarity": 0.8109
+      "similarity": 0.8522
     },
     {
-      "a_measure_start": 7,
-      "a_measure_end": 13,
-      "b_measure_start": 31,
-      "b_measure_end": 37,
-      "a_time_start": 18.784943310657596,
-      "a_time_end": 35.50331065759637,
-      "b_time_start": 76.20789115646258,
-      "b_time_end": 92.94947845804988,
-      "length": 7,
-      "similarity": 0.8066
-    },
-    {
-      "a_measure_start": 30,
-      "a_measure_end": 35,
-      "b_measure_start": 38,
-      "b_measure_end": 43,
-      "a_time_start": 73.79301587301588,
-      "a_time_end": 88.14294784580498,
-      "b_time_start": 92.94947845804988,
-      "b_time_end": 107.3922902494331,
+      "a_measure_start": 61,
+      "a_measure_end": 66,
+      "b_measure_start": 69,
+      "b_measure_end": 74,
+      "a_time_start": 149.28108843537416,
+      "a_time_end": 163.25950113378684,
+      "b_time_start": 167.90349206349205,
+      "b_time_end": 181.85868480725622,
       "length": 6,
-      "similarity": 0.8045
-    },
-    {
-      "a_measure_start": 8,
-      "a_measure_end": 13,
-      "b_measure_start": 40,
-      "b_measure_end": 45,
-      "a_time_start": 21.269478458049885,
-      "a_time_end": 35.50331065759637,
-      "b_time_start": 97.70956916099773,
-      "b_time_end": 112.38458049886621,
-      "length": 6,
-      "similarity": 0.7955
+      "similarity": 0.8456
     },
     {
       "a_measure_start": 24,
@@ -1029,52 +957,124 @@
       "b_measure_start": 59,
       "b_measure_end": 64,
       "a_time_start": 59.48952380952381,
-      "a_time_end": 73.79301587301588,
-      "b_time_start": 144.31201814058957,
+      "a_time_end": 73.8162358276644,
+      "b_time_start": 144.33523809523808,
       "b_time_end": 158.61551020408163,
       "length": 6,
-      "similarity": 0.7907
+      "similarity": 0.844
     },
     {
-      "a_measure_start": 26,
-      "a_measure_end": 31,
-      "b_measure_start": 69,
-      "b_measure_end": 74,
-      "a_time_start": 64.2960544217687,
-      "a_time_end": 78.6227664399093,
-      "b_time_start": 167.90349206349205,
-      "b_time_end": 181.85868480725622,
-      "length": 6,
-      "similarity": 0.7865
-    },
-    {
-      "a_measure_start": 2,
+      "a_measure_start": 5,
       "a_measure_end": 10,
-      "b_measure_start": 34,
+      "b_measure_start": 37,
       "b_measure_end": 42,
-      "a_time_start": 7.082086167800454,
-      "a_time_end": 28.421224489795918,
-      "b_time_start": 83.54539682539682,
+      "a_time_start": 13.467573696145125,
+      "a_time_end": 28.003265306122447,
+      "b_time_start": 90.62748299319728,
       "b_time_end": 104.95419501133787,
+      "length": 6,
+      "similarity": 0.8351
+    },
+    {
+      "a_measure_start": 58,
+      "a_measure_end": 63,
+      "b_measure_start": 70,
+      "b_measure_end": 75,
+      "a_time_start": 141.7578231292517,
+      "a_time_end": 156.29351473922904,
+      "b_time_start": 170.22548752834467,
+      "b_time_end": 184.20390022675738,
+      "length": 6,
+      "similarity": 0.824
+    },
+    {
+      "a_measure_start": 24,
+      "a_measure_end": 29,
+      "b_measure_start": 63,
+      "b_measure_end": 68,
+      "a_time_start": 59.48952380952381,
+      "a_time_end": 73.8162358276644,
+      "b_time_start": 153.97151927437642,
+      "b_time_end": 167.90349206349205,
+      "length": 6,
+      "similarity": 0.8065
+    },
+    {
+      "a_measure_start": 16,
+      "a_measure_end": 21,
+      "b_measure_start": 47,
+      "b_measure_end": 52,
+      "a_time_start": 40.24018140589569,
+      "a_time_end": 54.706213151927436,
+      "b_time_start": 114.8691156462585,
+      "b_time_end": 129.40480725623584,
+      "length": 6,
+      "similarity": 0.785
+    },
+    {
+      "a_measure_start": 24,
+      "a_measure_end": 29,
+      "b_measure_start": 67,
+      "b_measure_end": 72,
+      "a_time_start": 59.48952380952381,
+      "a_time_end": 73.8162358276644,
+      "b_time_start": 163.25950113378684,
+      "b_time_end": 177.1914739229025,
+      "length": 6,
+      "similarity": 0.7663
+    },
+    {
+      "a_measure_start": 21,
+      "a_measure_end": 29,
+      "b_measure_start": 56,
+      "b_measure_end": 64,
+      "a_time_start": 52.2681179138322,
+      "a_time_end": 73.8162358276644,
+      "b_time_start": 136.81197278911566,
+      "b_time_end": 158.61551020408163,
       "length": 9,
-      "similarity": 0.7811
+      "similarity": 0.7621
+    },
+    {
+      "a_measure_start": 20,
+      "a_measure_end": 28,
+      "b_measure_start": 67,
+      "b_measure_end": 75,
+      "a_time_start": 49.87646258503401,
+      "a_time_end": 71.40136054421768,
+      "b_time_start": 163.25950113378684,
+      "b_time_end": 184.20390022675738,
+      "length": 9,
+      "similarity": 0.7606
+    },
+    {
+      "a_measure_start": 13,
+      "a_measure_end": 19,
+      "b_measure_start": 44,
+      "b_measure_end": 50,
+      "a_time_start": 32.97233560090703,
+      "a_time_end": 49.87646258503401,
+      "b_time_start": 107.3922902494331,
+      "b_time_end": 124.52861678004535,
+      "length": 7,
+      "similarity": 0.7571
     }
   ],
   "lyric_phrases": [
     {
       "index": 0,
       "time_start": 0.0,
-      "time_end": 7.32,
+      "time_end": 7.26,
       "text": "Bonne année jeun Il ne viendra pas ce soir",
       "normalized": "bonne année jeun il ne viendra pas ce soir",
       "word_count": 9
     },
     {
       "index": 1,
-      "time_start": 9.7,
-      "time_end": 16.26,
-      "text": "Trombe la année jeun Et mon coeur s 'avide moi",
-      "normalized": "trombe la année jeun et mon coeur s 'avide moi",
+      "time_start": 9.72,
+      "time_end": 16.24,
+      "text": "Trongue la année jeun Et mon coeur s 'avide moi",
+      "normalized": "trongue la année jeun et mon coeur s 'avide moi",
       "word_count": 10
     },
     {
@@ -1088,14 +1088,14 @@
     {
       "index": 3,
       "time_start": 22.68,
-      "time_end": 25.76,
+      "time_end": 25.78,
       "text": "Tout en larme blanche",
       "normalized": "tout en larme blanche",
       "word_count": 4
     },
     {
       "index": 4,
-      "time_start": 27.78,
+      "time_start": 27.92,
       "time_end": 30.34,
       "text": "Loiseau sur la branche",
       "normalized": "loiseau sur la branche",
@@ -1103,171 +1103,185 @@
     },
     {
       "index": 5,
-      "time_start": 32.02,
-      "time_end": 39.54,
+      "time_start": 32.16,
+      "time_end": 39.6,
       "text": "Leur le sort il est jeune Qui ne viendra pas ce soir",
       "normalized": "leur le sort il est jeune qui ne viendra pas ce soir",
       "word_count": 12
     },
     {
       "index": 6,
-      "time_start": 41.74,
-      "time_end": 45.04,
-      "text": "Crie mon désespoir",
-      "normalized": "crie mon désespoir",
-      "word_count": 3
+      "time_start": 41.2,
+      "time_end": 54.06,
+      "text": "Qu 'il a un ou des espoirs Mais on veut la année jeun Et pas si brûle manège",
+      "normalized": "qu 'il a un ou des espoirs mais on veut la année jeun et pas si brûle manège",
+      "word_count": 18
     },
     {
       "index": 7,
-      "time_start": 46.34,
-      "time_end": 50.04,
-      "text": "Mais on be la année jeun",
-      "normalized": "mais on be la année jeun",
-      "word_count": 6
+      "time_start": 57.78,
+      "time_end": 70.52,
+      "text": "La la la la la la la la la la la Sales ...",
+      "normalized": "la la la la la la la la la la la sales",
+      "word_count": 13
     },
     {
       "index": 8,
-      "time_start": 51.38,
-      "time_end": 54.42,
-      "text": "Un passible manège La beencaires",
-      "normalized": "un passible manège la beencaires",
-      "word_count": 5
-    },
-    {
-      "index": 9,
-      "time_start": 57.72,
-      "time_end": 60.8,
-      "text": "La R el",
-      "normalized": "la r el",
+      "time_start": 77.36,
+      "time_end": 78.52,
+      "text": "Donc, la neige,",
+      "normalized": "donc la neige",
       "word_count": 3
     },
     {
-      "index": 10,
-      "time_start": 62.34,
-      "time_end": 72.3,
-      "text": "La R la la la",
-      "normalized": "la r la la la",
-      "word_count": 5
-    },
-    {
-      "index": 11,
-      "time_start": 75.54,
+      "index": 9,
+      "time_start": 79.98,
       "time_end": 81.86,
-      "text": "Bonne année jeun Pas ce soir.",
-      "normalized": "bonne année jeun pas ce soir",
+      "text": "qui ne viendra pas ce soir.",
+      "normalized": "qui ne viendra pas ce soir",
       "word_count": 6
     },
     {
-      "index": 12,
-      "time_start": 85.32,
-      "time_end": 86.6,
-      "text": "Tant que la neige,",
-      "normalized": "tant que la neige",
+      "index": 10,
+      "time_start": 84.92,
+      "time_end": 86.62,
+      "text": "Donc, la neige,",
+      "normalized": "donc la neige",
+      "word_count": 3
+    },
+    {
+      "index": 11,
+      "time_start": 88.98,
+      "time_end": 91.28,
+      "text": "qui blanc de désespoir,",
+      "normalized": "qui blanc de désespoir",
       "word_count": 4
     },
     {
-      "index": 13,
-      "time_start": 88.78,
-      "time_end": 91.12,
-      "text": "ou tes blancs, que désespoir.",
-      "normalized": "ou tes blancs que désespoir",
-      "word_count": 5
-    },
-    {
-      "index": 14,
-      "time_start": 93.92,
-      "time_end": 95.78,
+      "index": 12,
+      "time_start": 93.68,
+      "time_end": 95.42,
       "text": "Riste certitude,",
       "normalized": "riste certitude",
       "word_count": 2
     },
     {
-      "index": 15,
-      "time_start": 98.2,
+      "index": 13,
+      "time_start": 97.64,
       "time_end": 100.46,
-      "text": "le froid et l 'absence,",
-      "normalized": "le froid et l 'absence",
+      "text": "le foie et l 'absence.",
+      "normalized": "le foie et l 'absence",
       "word_count": 5
     },
     {
+      "index": 14,
+      "time_start": 102.4,
+      "time_end": 105.28,
+      "text": "C 'est au Dieu silencieux,",
+      "normalized": "c 'est au dieu silencieux",
+      "word_count": 5
+    },
+    {
+      "index": 15,
+      "time_start": 107.68,
+      "time_end": 110.0,
+      "text": "blanche solitude.",
+      "normalized": "blanche solitude",
+      "word_count": 2
+    },
+    {
       "index": 16,
-      "time_start": 102.98,
-      "time_end": 105.38,
-      "text": "cet odieux silencer,",
-      "normalized": "cet odieux silencer",
-      "word_count": 3
+      "time_start": 111.9,
+      "time_end": 114.72,
+      "text": "Tu ne viendras pas ce soir.",
+      "normalized": "tu ne viendras pas ce soir",
+      "word_count": 6
     },
     {
       "index": 17,
-      "time_start": 107.24,
-      "time_end": 120.6,
-      "text": "blanche solitude, tu ne viendras pas ce soir. Vous vacherez vos désespoir.",
-      "normalized": "blanche solitude tu ne viendras pas ce soir vous vacherez vos désespoir",
-      "word_count": 12
+      "time_start": 116.94,
+      "time_end": 119.76,
+      "text": "Donc, la qui viendra pas soir.",
+      "normalized": "donc la qui viendra pas soir",
+      "word_count": 6
     },
     {
       "index": 18,
-      "time_start": 121.72,
-      "time_end": 124.56,
+      "time_start": 122.0,
+      "time_end": 124.54,
       "text": "Mais ton bela neige,",
       "normalized": "mais ton bela neige",
       "word_count": 4
     },
     {
       "index": 19,
-      "time_start": 126.4,
-      "time_end": 134.3,
-      "text": "impossible m 'annège. Mais ton bela neige,",
-      "normalized": "impossible m 'annège mais ton bela neige",
-      "word_count": 7
-    },
-    {
-      "index": 20,
-      "time_start": 136.28,
-      "time_end": 139.2,
-      "text": "impossible m 'annège.",
-      "normalized": "impossible m 'annège",
-      "word_count": 3
-    },
-    {
-      "index": 21,
-      "time_start": 143.14,
-      "time_end": 152.08,
-      "text": "La la la la la la la la la la la la la la la.",
-      "normalized": "la la la la la la la la la la la la la la la",
-      "word_count": 15
+      "time_start": 126.32,
+      "time_end": 139.22,
+      "text": "un passible manège, mais ton bela neige, un passible manège.",
+      "normalized": "un passible manège mais ton bela neige un passible manège",
+      "word_count": 10
     }
   ],
   "lyric_repeats": [
     {
-      "a_index": 0,
-      "b_index": 11,
-      "a_phrase_end": 0,
-      "b_phrase_end": 11,
-      "a_time_start": 0.0,
-      "a_time_end": 7.32,
-      "b_time_start": 75.54,
-      "b_time_end": 81.86,
-      "text_a": "Bonne année jeun Il ne viendra pas ce soir",
-      "text_b": "Bonne année jeun Pas ce soir.",
-      "similarity": 0.752,
-      "raw_similarity": 0.8,
+      "a_index": 9,
+      "b_index": 16,
+      "a_phrase_end": 9,
+      "b_phrase_end": 16,
+      "a_time_start": 79.98,
+      "a_time_end": 81.86,
+      "b_time_start": 111.9,
+      "b_time_end": 114.72,
+      "text_a": "qui ne viendra pas ce soir.",
+      "text_b": "Tu ne viendras pas ce soir.",
+      "similarity": 0.9231,
+      "raw_similarity": 0.9231,
       "window_phrases": 1
     },
     {
-      "a_index": 5,
+      "a_index": 8,
       "b_index": 17,
-      "a_phrase_end": 7,
-      "b_phrase_end": 18,
-      "a_time_start": 32.02,
-      "a_time_end": 50.04,
-      "b_time_start": 107.24,
-      "b_time_end": 124.56,
-      "text_a": "Leur le sort il est jeune Qui ne viendra pas ce soir Crie mon désespoir Mais on be la année jeun",
-      "text_b": "blanche solitude, tu ne viendras pas ce soir. Vous vacherez vos désespoir. Mais ton bela neige,",
-      "similarity": 0.6756,
+      "a_phrase_end": 9,
+      "b_phrase_end": 17,
+      "a_time_start": 77.36,
+      "a_time_end": 81.86,
+      "b_time_start": 116.94,
+      "b_time_end": 119.76,
+      "text_a": "Donc, la neige, qui ne viendra pas ce soir.",
+      "text_b": "Donc, la qui viendra pas soir.",
+      "similarity": 0.7741,
+      "raw_similarity": 0.8235,
+      "window_phrases": 2
+    },
+    {
+      "a_index": 0,
+      "b_index": 8,
+      "a_phrase_end": 0,
+      "b_phrase_end": 9,
+      "a_time_start": 0.0,
+      "a_time_end": 7.26,
+      "b_time_start": 77.36,
+      "b_time_end": 81.86,
+      "text_a": "Bonne année jeun Il ne viendra pas ce soir",
+      "text_b": "Donc, la neige, qui ne viendra pas ce soir.",
+      "similarity": 0.7561,
+      "raw_similarity": 0.7561,
+      "window_phrases": 2
+    },
+    {
+      "a_index": 0,
+      "b_index": 15,
+      "a_phrase_end": 0,
+      "b_phrase_end": 16,
+      "a_time_start": 0.0,
+      "a_time_end": 7.26,
+      "b_time_start": 107.68,
+      "b_time_end": 114.72,
+      "text_a": "Bonne année jeun Il ne viendra pas ce soir",
+      "text_b": "blanche solitude. Tu ne viendras pas ce soir.",
+      "similarity": 0.6918,
       "raw_similarity": 0.7059,
-      "window_phrases": 3
+      "window_phrases": 2
     },
     {
       "a_index": 0,
@@ -1275,9 +1289,9 @@
       "a_phrase_end": 0,
       "b_phrase_end": 5,
       "a_time_start": 0.0,
-      "a_time_end": 7.32,
-      "b_time_start": 32.02,
-      "b_time_end": 39.54,
+      "a_time_end": 7.26,
+      "b_time_start": 32.16,
+      "b_time_end": 39.6,
       "text_a": "Bonne année jeun Il ne viendra pas ce soir",
       "text_b": "Leur le sort il est jeune Qui ne viendra pas ce soir",
       "similarity": 0.6705,
@@ -1286,134 +1300,65 @@
     },
     {
       "a_index": 5,
+      "b_index": 8,
+      "a_phrase_end": 5,
+      "b_phrase_end": 9,
+      "a_time_start": 32.16,
+      "a_time_end": 39.6,
+      "b_time_start": 77.36,
+      "b_time_end": 81.86,
+      "text_a": "Leur le sort il est jeune Qui ne viendra pas ce soir",
+      "text_b": "Donc, la neige, qui ne viendra pas ce soir.",
+      "similarity": 0.6643,
+      "raw_similarity": 0.6957,
+      "window_phrases": 2
+    },
+    {
+      "a_index": 9,
+      "b_index": 15,
+      "a_phrase_end": 9,
+      "b_phrase_end": 16,
+      "a_time_start": 79.98,
+      "a_time_end": 81.86,
+      "b_time_start": 107.68,
+      "b_time_end": 114.72,
+      "text_a": "qui ne viendra pas ce soir.",
+      "text_b": "blanche solitude. Tu ne viendras pas ce soir.",
+      "similarity": 0.6643,
+      "raw_similarity": 0.6957,
+      "window_phrases": 2
+    },
+    {
+      "a_index": 0,
       "b_index": 16,
-      "a_phrase_end": 7,
-      "b_phrase_end": 18,
-      "a_time_start": 32.02,
-      "a_time_end": 50.04,
-      "b_time_start": 102.98,
-      "b_time_end": 124.56,
-      "text_a": "Leur le sort il est jeune Qui ne viendra pas ce soir Crie mon désespoir Mais on be la année jeun",
-      "text_b": "cet odieux silencer, blanche solitude, tu ne viendras pas ce soir. Vous vacherez vos désespoir. Mais ton bela neige,",
-      "similarity": 0.6647,
-      "raw_similarity": 0.6763,
-      "window_phrases": 3
+      "a_phrase_end": 0,
+      "b_phrase_end": 16,
+      "a_time_start": 0.0,
+      "a_time_end": 7.26,
+      "b_time_start": 111.9,
+      "b_time_end": 114.72,
+      "text_a": "Bonne année jeun Il ne viendra pas ce soir",
+      "text_b": "Tu ne viendras pas ce soir.",
+      "similarity": 0.6635,
+      "raw_similarity": 0.7059,
+      "window_phrases": 1
     }
   ],
   "candidates": [
     {
-      "a_measure_start": 8,
-      "a_measure_end": 13,
-      "b_measure_start": 40,
-      "b_measure_end": 45,
-      "a_time_start": 21.269478458049885,
-      "a_time_end": 35.50331065759637,
-      "b_time_start": 97.70956916099773,
-      "b_time_end": 112.38458049886621,
-      "length": 6,
-      "similarity": 0.7955,
-      "harmonic_score": 0.7955,
-      "lyric_score": 0.6756,
-      "combined_score": 0.7619,
-      "type": "progression répétée",
-      "lyric_match": {
-        "a_index": 5,
-        "b_index": 17,
-        "a_phrase_end": 7,
-        "b_phrase_end": 18,
-        "a_time_start": 32.02,
-        "a_time_end": 50.04,
-        "b_time_start": 107.24,
-        "b_time_end": 124.56,
-        "text_a": "Leur le sort il est jeune Qui ne viendra pas ce soir Crie mon désespoir Mais on be la année jeun",
-        "text_b": "blanche solitude, tu ne viendras pas ce soir. Vous vacherez vos désespoir. Mais ton bela neige,",
-        "similarity": 0.6756,
-        "raw_similarity": 0.7059,
-        "window_phrases": 3
-      }
-    },
-    {
-      "a_measure_start": 5,
-      "a_measure_end": 10,
-      "b_measure_start": 37,
-      "b_measure_end": 42,
-      "a_time_start": 14.048072562358277,
-      "a_time_end": 28.421224489795918,
-      "b_time_start": 90.62748299319728,
-      "b_time_end": 104.95419501133787,
-      "length": 6,
-      "similarity": 0.9243,
-      "harmonic_score": 0.9243,
-      "lyric_score": 0.0,
-      "combined_score": 0.6655,
-      "type": "progression répétée",
-      "lyric_match": null
-    },
-    {
-      "a_measure_start": 60,
-      "a_measure_end": 66,
-      "b_measure_start": 68,
-      "b_measure_end": 74,
-      "a_time_start": 146.9126530612245,
-      "a_time_end": 163.25950113378684,
-      "b_time_start": 165.58149659863946,
-      "b_time_end": 181.85868480725622,
-      "length": 7,
-      "similarity": 0.8736,
-      "harmonic_score": 0.8736,
-      "lyric_score": 0.0,
-      "combined_score": 0.629,
-      "type": "progression répétée",
-      "lyric_match": null
-    },
-    {
-      "a_measure_start": 63,
-      "a_measure_end": 68,
-      "b_measure_start": 71,
-      "b_measure_end": 76,
-      "a_time_start": 153.97151927437642,
-      "a_time_end": 167.90349206349205,
-      "b_time_start": 172.5474829931973,
-      "b_time_end": 185.34167800453517,
-      "length": 6,
-      "similarity": 0.824,
-      "harmonic_score": 0.824,
-      "lyric_score": 0.0,
-      "combined_score": 0.5933,
-      "type": "progression répétée",
-      "lyric_match": null
-    },
-    {
-      "a_measure_start": 59,
-      "a_measure_end": 64,
-      "b_measure_start": 71,
-      "b_measure_end": 76,
-      "a_time_start": 144.31201814058957,
-      "a_time_end": 158.61551020408163,
-      "b_time_start": 172.5474829931973,
-      "b_time_end": 185.34167800453517,
-      "length": 6,
-      "similarity": 0.8146,
-      "harmonic_score": 0.8146,
-      "lyric_score": 0.0,
-      "combined_score": 0.5865,
-      "type": "progression répétée",
-      "lyric_match": null
-    },
-    {
-      "a_measure_start": 57,
+      "a_measure_start": 58,
       "a_measure_end": 63,
-      "b_measure_start": 65,
+      "b_measure_start": 66,
       "b_measure_end": 71,
-      "a_time_start": 139.2732879818594,
+      "a_time_start": 141.7578231292517,
       "a_time_end": 156.29351473922904,
-      "b_time_start": 158.61551020408163,
+      "b_time_start": 160.93750566893425,
       "b_time_end": 174.86947845804988,
-      "length": 7,
-      "similarity": 0.8139,
-      "harmonic_score": 0.8139,
+      "length": 6,
+      "similarity": 0.8543,
+      "harmonic_score": 0.8543,
       "lyric_score": 0.0,
-      "combined_score": 0.586,
+      "combined_score": 0.6151,
       "type": "progression répétée",
       "lyric_match": null
     },
@@ -1423,48 +1368,31 @@
       "b_measure_start": 70,
       "b_measure_end": 75,
       "a_time_start": 57.09786848072562,
-      "a_time_end": 71.37814058956916,
+      "a_time_end": 71.40136054421768,
       "b_time_start": 170.22548752834467,
-      "b_time_end": 184.18068027210884,
+      "b_time_end": 184.20390022675738,
       "length": 6,
-      "similarity": 0.8109,
-      "harmonic_score": 0.8109,
+      "similarity": 0.8522,
+      "harmonic_score": 0.8522,
       "lyric_score": 0.0,
-      "combined_score": 0.5838,
+      "combined_score": 0.6136,
       "type": "progression répétée",
       "lyric_match": null
     },
     {
-      "a_measure_start": 7,
-      "a_measure_end": 13,
-      "b_measure_start": 31,
-      "b_measure_end": 37,
-      "a_time_start": 18.784943310657596,
-      "a_time_end": 35.50331065759637,
-      "b_time_start": 76.20789115646258,
-      "b_time_end": 92.94947845804988,
-      "length": 7,
-      "similarity": 0.8066,
-      "harmonic_score": 0.8066,
-      "lyric_score": 0.0,
-      "combined_score": 0.5808,
-      "type": "progression répétée",
-      "lyric_match": null
-    },
-    {
-      "a_measure_start": 30,
-      "a_measure_end": 35,
-      "b_measure_start": 38,
-      "b_measure_end": 43,
-      "a_time_start": 73.79301587301588,
-      "a_time_end": 88.14294784580498,
-      "b_time_start": 92.94947845804988,
-      "b_time_end": 107.3922902494331,
+      "a_measure_start": 61,
+      "a_measure_end": 66,
+      "b_measure_start": 69,
+      "b_measure_end": 74,
+      "a_time_start": 149.28108843537416,
+      "a_time_end": 163.25950113378684,
+      "b_time_start": 167.90349206349205,
+      "b_time_end": 181.85868480725622,
       "length": 6,
-      "similarity": 0.8045,
-      "harmonic_score": 0.8045,
+      "similarity": 0.8456,
+      "harmonic_score": 0.8456,
       "lyric_score": 0.0,
-      "combined_score": 0.5792,
+      "combined_score": 0.6088,
       "type": "progression répétée",
       "lyric_match": null
     },
@@ -1474,48 +1402,150 @@
       "b_measure_start": 59,
       "b_measure_end": 64,
       "a_time_start": 59.48952380952381,
-      "a_time_end": 73.79301587301588,
-      "b_time_start": 144.31201814058957,
+      "a_time_end": 73.8162358276644,
+      "b_time_start": 144.33523809523808,
       "b_time_end": 158.61551020408163,
       "length": 6,
-      "similarity": 0.7907,
-      "harmonic_score": 0.7907,
+      "similarity": 0.844,
+      "harmonic_score": 0.844,
       "lyric_score": 0.0,
-      "combined_score": 0.5693,
+      "combined_score": 0.6077,
       "type": "progression répétée",
       "lyric_match": null
     },
     {
-      "a_measure_start": 26,
-      "a_measure_end": 31,
-      "b_measure_start": 69,
-      "b_measure_end": 74,
-      "a_time_start": 64.2960544217687,
-      "a_time_end": 78.6227664399093,
-      "b_time_start": 167.90349206349205,
-      "b_time_end": 181.85868480725622,
-      "length": 6,
-      "similarity": 0.7865,
-      "harmonic_score": 0.7865,
-      "lyric_score": 0.0,
-      "combined_score": 0.5663,
-      "type": "progression répétée",
-      "lyric_match": null
-    },
-    {
-      "a_measure_start": 2,
+      "a_measure_start": 5,
       "a_measure_end": 10,
-      "b_measure_start": 34,
+      "b_measure_start": 37,
       "b_measure_end": 42,
-      "a_time_start": 7.082086167800454,
-      "a_time_end": 28.421224489795918,
-      "b_time_start": 83.54539682539682,
+      "a_time_start": 13.467573696145125,
+      "a_time_end": 28.003265306122447,
+      "b_time_start": 90.62748299319728,
       "b_time_end": 104.95419501133787,
-      "length": 9,
-      "similarity": 0.7811,
-      "harmonic_score": 0.7811,
+      "length": 6,
+      "similarity": 0.8351,
+      "harmonic_score": 0.8351,
       "lyric_score": 0.0,
-      "combined_score": 0.5624,
+      "combined_score": 0.6013,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 58,
+      "a_measure_end": 63,
+      "b_measure_start": 70,
+      "b_measure_end": 75,
+      "a_time_start": 141.7578231292517,
+      "a_time_end": 156.29351473922904,
+      "b_time_start": 170.22548752834467,
+      "b_time_end": 184.20390022675738,
+      "length": 6,
+      "similarity": 0.824,
+      "harmonic_score": 0.824,
+      "lyric_score": 0.0,
+      "combined_score": 0.5933,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 24,
+      "a_measure_end": 29,
+      "b_measure_start": 63,
+      "b_measure_end": 68,
+      "a_time_start": 59.48952380952381,
+      "a_time_end": 73.8162358276644,
+      "b_time_start": 153.97151927437642,
+      "b_time_end": 167.90349206349205,
+      "length": 6,
+      "similarity": 0.8065,
+      "harmonic_score": 0.8065,
+      "lyric_score": 0.0,
+      "combined_score": 0.5807,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 16,
+      "a_measure_end": 21,
+      "b_measure_start": 47,
+      "b_measure_end": 52,
+      "a_time_start": 40.24018140589569,
+      "a_time_end": 54.706213151927436,
+      "b_time_start": 114.8691156462585,
+      "b_time_end": 129.40480725623584,
+      "length": 6,
+      "similarity": 0.785,
+      "harmonic_score": 0.785,
+      "lyric_score": 0.0,
+      "combined_score": 0.5652,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 24,
+      "a_measure_end": 29,
+      "b_measure_start": 67,
+      "b_measure_end": 72,
+      "a_time_start": 59.48952380952381,
+      "a_time_end": 73.8162358276644,
+      "b_time_start": 163.25950113378684,
+      "b_time_end": 177.1914739229025,
+      "length": 6,
+      "similarity": 0.7663,
+      "harmonic_score": 0.7663,
+      "lyric_score": 0.0,
+      "combined_score": 0.5517,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 21,
+      "a_measure_end": 29,
+      "b_measure_start": 56,
+      "b_measure_end": 64,
+      "a_time_start": 52.2681179138322,
+      "a_time_end": 73.8162358276644,
+      "b_time_start": 136.81197278911566,
+      "b_time_end": 158.61551020408163,
+      "length": 9,
+      "similarity": 0.7621,
+      "harmonic_score": 0.7621,
+      "lyric_score": 0.0,
+      "combined_score": 0.5487,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 20,
+      "a_measure_end": 28,
+      "b_measure_start": 67,
+      "b_measure_end": 75,
+      "a_time_start": 49.87646258503401,
+      "a_time_end": 71.40136054421768,
+      "b_time_start": 163.25950113378684,
+      "b_time_end": 184.20390022675738,
+      "length": 9,
+      "similarity": 0.7606,
+      "harmonic_score": 0.7606,
+      "lyric_score": 0.0,
+      "combined_score": 0.5476,
+      "type": "progression répétée",
+      "lyric_match": null
+    },
+    {
+      "a_measure_start": 13,
+      "a_measure_end": 19,
+      "b_measure_start": 44,
+      "b_measure_end": 50,
+      "a_time_start": 32.97233560090703,
+      "a_time_end": 49.87646258503401,
+      "b_time_start": 107.3922902494331,
+      "b_time_end": 124.52861678004535,
+      "length": 7,
+      "similarity": 0.7571,
+      "harmonic_score": 0.7571,
+      "lyric_score": 0.0,
+      "combined_score": 0.5451,
       "type": "progression répétée",
       "lyric_match": null
     }
@@ -1526,131 +1556,67 @@
       "name": "Bloc A",
       "cluster": "A",
       "measure_start": 1,
-      "measure_end": 7,
+      "measure_end": 76,
       "time_start": 0.0,
-      "time_end": 21.269478458049885,
+      "time_end": 185.31845804988663,
       "harmonic_repeat": 0.0,
-      "lyrics": "Bonne année jeun Il ne viendra pas ce soir Trombe la année jeun Et mon coeur s'avide moi Ce soyez cortège",
+      "lyrics": "Bonne année jeun Il ne viendra pas ce soir Trongue la année jeun Et mon coeur s'avide moi Ce soyez cortège Tout en larme blanche Loiseau sur la branche Leur le sort il est jeune Qui ne viendra pas ce soir Qu'il a un ou des espoirs Mais on veut la année jeun Et pas si brûle manège La la la la la la la la la la la Sales... Donc, la neige, qui ne viendra pas ce soir. Donc, la neige, qui blanc de désespoir, Riste certitude, le foie et l'absence. C'est au Dieu silencieux, blanche solitude. Tu ne viendras pas ce soir. Donc, la qui viendra pas soir. Mais ton bela neige, un passible manège, mais ton bela neige, un passible manège.......",
       "chord_patterns": [
-        "D|Dm|Gm|Em",
-        "Em|A|Em|A",
-        "A|Gm|Em",
-        "Em|A|Gm|A",
-        "A|D",
-        "Dm|D",
-        "Dm|Gm"
-      ],
-      "visual_only": true,
-      "includes_preroll": true,
-      "includes_postroll": false
-    },
-    {
-      "index": 1,
-      "name": "Bloc B",
-      "cluster": "B",
-      "measure_start": 8,
-      "measure_end": 13,
-      "time_start": 21.269478458049885,
-      "time_end": 35.50331065759637,
-      "harmonic_repeat": 0.3549,
-      "lyrics": "Tout en larme blanche Loiseau sur la branche Leur le sort il est jeune",
-      "chord_patterns": [
-        "Gm",
-        "Gm|Dm",
-        "Dm",
-        "Dm|Em|A",
+        "D|Dm|D|Gm",
+        "Em|A|Em",
         "A",
-        "A|Dm"
-      ],
-      "visual_only": true,
-      "includes_preroll": false,
-      "includes_postroll": false
-    },
-    {
-      "index": 2,
-      "name": "Bloc C",
-      "cluster": "C",
-      "measure_start": 14,
-      "measure_end": 39,
-      "time_start": 35.50331065759637,
-      "time_end": 97.70956916099773,
-      "harmonic_repeat": 0.1452,
-      "lyrics": "Qui ne viendra pas ce soir Crie mon désespoir Mais on be la année jeun Un passible manège La beencaires La R el La R la la la Bonne année jeun Pas ce soir. Tant que la neige, ou tes blancs, que désespoir. Riste certitude,",
-      "chord_patterns": [
-        "Dm|Gm|D|G",
-        "G|Gm|G|Gm",
+        "Em|A|Gm",
+        "A|Gm",
+        "D|Dm",
+        "Dm|Gm",
         "Gm",
+        "Gm",
+        "Dm",
+        "Dm|F|Gm|Em",
+        "A",
+        "A|D|Dm",
+        "Dm|Gm|D|Gm",
+        "G|Gm|G|Gm",
+        "Gm|Em|Gm",
         "Em|Dm",
-        "Am|A|Dm",
+        "Am|Dm",
         "Dm|A",
         "Gm|Em|A",
         "A|Dm",
         "Am|Dm|C",
-        "C|Gm",
+        "C|Em|Gm",
         "Bb|Gm|Dm",
-        "Dm|Am|Em|A",
+        "Dm|A|Em|A",
         "A|Dm",
-        "D|Gm",
+        "Dm|Gm",
         "Gm|Dm",
         "Dm|Em|A",
         "G|Dm",
-        "D|Gm",
         "Gm",
-        "Gm|D|Dm",
+        "Gm",
+        "Gm|Dm",
         "D|Dm",
         "Gm|Em|A",
         "Em|A",
         "A|Dm",
         "D|Dm|D",
-        "D|Gm"
-      ],
-      "visual_only": true,
-      "includes_preroll": false,
-      "includes_postroll": false
-    },
-    {
-      "index": 3,
-      "name": "Bloc B",
-      "cluster": "B",
-      "measure_start": 40,
-      "measure_end": 45,
-      "time_start": 97.70956916099773,
-      "time_end": 112.38458049886621,
-      "harmonic_repeat": 0.7955,
-      "lyrics": "le froid et l'absence, cet odieux silencer, blanche solitude, tu ne",
-      "chord_patterns": [
+        "D|Gm",
         "Gm",
         "Gm|Dm",
         "Dm",
-        "Em|A",
+        "Em|A|Em",
         "A|D",
-        "Dm|D|Dm"
-      ],
-      "visual_only": true,
-      "includes_preroll": false,
-      "includes_postroll": false
-    },
-    {
-      "index": 4,
-      "name": "Bloc D",
-      "cluster": "D",
-      "measure_start": 46,
-      "measure_end": 76,
-      "time_start": 112.38458049886621,
-      "time_end": 185.34167800453517,
-      "harmonic_repeat": 0.4222,
-      "lyrics": "ne viendras pas ce soir. Vous vacherez vos désespoir. Mais ton bela neige, impossible m'annège. Mais ton bela neige, impossible m'annège. La la la la la la la la la la la la la la la.",
-      "chord_patterns": [
-        "Gm|Em|Gm",
+        "Dm|D|Dm",
+        "Gm|E|Gm",
         "Gm|Em|G|Gm",
         "Gm|Em|Dm",
         "Dm|Am|Dm",
         "Dm|A",
-        "C#m|Gm|Em",
-        "Em|C#m|G|Dm",
+        "C#m|Gm|D|Em",
+        "Em|A|Dm",
         "Dm|Am|Dm",
         "Gm|G|A",
-        "C#|D|Gm|Em",
+        "C#|D|Dm|Em",
         "Em|C#m|Dm",
         "Dm|Am|Dm",
         "Dm|Gm",
@@ -1658,7 +1624,7 @@
         "Dm|D|Em|A",
         "A|D|Dm",
         "Dm|D|Gm",
-        "Gm|D|Dm",
+        "Gm|Dm",
         "Dm|D|Em|A",
         "A|D|Dm",
         "Dm|D|Gm",
@@ -1666,15 +1632,15 @@
         "Dm|D|Em",
         "A|D|Dm",
         "Dm|G|Gm",
-        "Gm|Dm",
+        "Gm|D|Dm",
         "Dm|A|Em",
         "A|Dm",
-        "Dm|D|Gm",
+        "Dm|Gm",
         "Gm|Dm",
-        "Dm|D"
+        "Dm"
       ],
       "visual_only": true,
-      "includes_preroll": false,
+      "includes_preroll": true,
       "includes_postroll": false
     }
   ]

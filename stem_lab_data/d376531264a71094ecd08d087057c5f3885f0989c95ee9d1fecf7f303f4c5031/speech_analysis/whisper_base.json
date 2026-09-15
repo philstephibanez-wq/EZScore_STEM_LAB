@@ -3,7 +3,7 @@
   "model": "base",
   "source": "demucs-vocals",
   "language": "fr",
-  "text": "Bonne année jeun Il ne viendra pas ce soir Trombe la année jeun Et mon coeur s'avide moi Ce soyez cortège Tout en larme blanche Loiseau sur la branche Leur le sort il est jeune Qui ne viendra pas ce soir Crie mon désespoir Mais on be la année jeun Un passible manège La beencaires La R el לש La R la La R la La R la Bonne année jeun Pas ce soir. Tant que la neige, ou tes blancs, que désespoir. Riste certitude, le froid et l'absence, cet odieux silencer, blanche solitude, tu ne viendras pas ce soir. Vous vacherez vos désespoir. Mais ton bela neige, impossible m'annège. Mais ton bela neige, impossible m'annège. La la la la la la la la la la la la la la la la.",
+  "text": "Bonne année jeun Il ne viendra pas ce soir Trongue la année jeun Et mon coeur s'avide moi Ce soyez cortège Tout en larme blanche Loiseau sur la branche Leur le sort il est jeune Qui ne viendra pas ce soir Qu'il y a un crime ou des espoirs Mais on veut la année jeun Et pas si brûle manège La la la la la la la la la la la la la Sales ... Donc, la neige, qui ne viendra pas ce soir. Donc, la neige, qui blanc de désespoir, Riste certitude, le foie et l'absence. C'est au Dieu silencieux, blanche solitude. Tu ne viendras pas ce soir. Donc, la neige, qui viendra pas ce soir. Mais ton bela neige, un passible manège, mais ton bela neige, un passible manège. ... ...",
   "words": [
     {
       "start": 0.0,
@@ -37,41 +37,41 @@
     },
     {
       "start": 5.96,
-      "end": 6.24,
+      "end": 6.22,
       "text": "pas"
     },
     {
-      "start": 6.24,
+      "start": 6.22,
       "end": 6.58,
       "text": "ce"
     },
     {
       "start": 6.58,
-      "end": 7.32,
+      "end": 7.26,
       "text": "soir"
     },
     {
-      "start": 9.7,
-      "end": 10.82,
-      "text": "Trombe"
+      "start": 9.72,
+      "end": 10.84,
+      "text": "Trongue"
     },
     {
-      "start": 10.82,
-      "end": 11.2,
+      "start": 10.84,
+      "end": 11.16,
       "text": "la"
     },
     {
-      "start": 11.2,
+      "start": 11.16,
       "end": 11.5,
       "text": "année"
     },
     {
       "start": 11.5,
-      "end": 13.72,
+      "end": 13.74,
       "text": "jeun"
     },
     {
-      "start": 13.72,
+      "start": 13.74,
       "end": 14.38,
       "text": "Et"
     },
@@ -97,7 +97,7 @@
     },
     {
       "start": 15.7,
-      "end": 16.26,
+      "end": 16.24,
       "text": "moi"
     },
     {
@@ -132,11 +132,11 @@
     },
     {
       "start": 24.92,
-      "end": 25.76,
+      "end": 25.78,
       "text": "blanche"
     },
     {
-      "start": 27.78,
+      "start": 27.92,
       "end": 28.88,
       "text": "Loiseau"
     },
@@ -156,7 +156,7 @@
       "text": "branche"
     },
     {
-      "start": 32.02,
+      "start": 32.16,
       "end": 33.12,
       "text": "Leur"
     },
@@ -172,11 +172,11 @@
     },
     {
       "start": 33.7,
-      "end": 34.24,
+      "end": 34.26,
       "text": "il"
     },
     {
-      "start": 34.24,
+      "start": 34.26,
       "end": 34.5,
       "text": "est"
     },
@@ -186,12 +186,12 @@
       "text": "jeune"
     },
     {
-      "start": 35.88,
-      "end": 37.12,
+      "start": 36.18,
+      "end": 37.14,
       "text": "Qui"
     },
     {
-      "start": 37.12,
+      "start": 37.14,
       "end": 37.48,
       "text": "ne"
     },
@@ -212,166 +212,221 @@
     },
     {
       "start": 38.8,
-      "end": 39.54,
+      "end": 39.6,
       "text": "soir"
     },
     {
-      "start": 41.74,
+      "start": 41.2,
+      "end": 42.16,
+      "text": "Qu"
+    },
+    {
+      "start": 42.16,
       "end": 42.84,
-      "text": "Crie"
+      "text": "'il"
     },
     {
       "start": 42.84,
-      "end": 43.24,
-      "text": "mon"
+      "end": 42.84,
+      "text": "y"
     },
     {
-      "start": 43.24,
-      "end": 45.04,
-      "text": "désespoir"
+      "start": 42.84,
+      "end": 42.94,
+      "text": "a"
     },
     {
-      "start": 46.34,
-      "end": 47.02,
+      "start": 42.94,
+      "end": 43.06,
+      "text": "un"
+    },
+    {
+      "start": 43.06,
+      "end": 43.06,
+      "text": "crime"
+    },
+    {
+      "start": 43.06,
+      "end": 43.3,
+      "text": "ou"
+    },
+    {
+      "start": 43.3,
+      "end": 43.78,
+      "text": "des"
+    },
+    {
+      "start": 43.78,
+      "end": 45.98,
+      "text": "espoirs"
+    },
+    {
+      "start": 45.98,
+      "end": 47.04,
       "text": "Mais"
     },
     {
-      "start": 47.02,
-      "end": 47.88,
+      "start": 47.04,
+      "end": 47.82,
       "text": "on"
     },
     {
-      "start": 47.88,
-      "end": 48.16,
-      "text": "be"
+      "start": 47.82,
+      "end": 48.14,
+      "text": "veut"
     },
     {
-      "start": 48.16,
-      "end": 48.48,
+      "start": 48.14,
+      "end": 48.56,
       "text": "la"
     },
     {
-      "start": 48.48,
-      "end": 48.9,
+      "start": 48.56,
+      "end": 48.96,
       "text": "année"
     },
     {
-      "start": 48.9,
-      "end": 50.04,
+      "start": 48.96,
+      "end": 50.46,
       "text": "jeun"
     },
     {
-      "start": 51.38,
-      "end": 51.76,
-      "text": "Un"
+      "start": 50.86,
+      "end": 51.56,
+      "text": "Et"
     },
     {
-      "start": 51.76,
-      "end": 52.82,
-      "text": "passible"
+      "start": 51.56,
+      "end": 52.06,
+      "text": "pas"
     },
     {
-      "start": 52.82,
-      "end": 54.02,
+      "start": 52.06,
+      "end": 52.5,
+      "text": "si"
+    },
+    {
+      "start": 52.5,
+      "end": 53.1,
+      "text": "brûle"
+    },
+    {
+      "start": 53.1,
+      "end": 54.06,
       "text": "manège"
     },
     {
-      "start": 54.02,
-      "end": 54.22,
+      "start": 57.78,
+      "end": 59.18,
       "text": "La"
     },
     {
-      "start": 54.22,
-      "end": 54.42,
-      "text": "beencaires"
+      "start": 59.18,
+      "end": 60.58,
+      "text": "la"
     },
     {
-      "start": 57.72,
-      "end": 59.12,
-      "text": "La"
+      "start": 60.58,
+      "end": 61.34,
+      "text": "la"
     },
     {
-      "start": 59.12,
-      "end": 60.52,
-      "text": "R"
+      "start": 61.34,
+      "end": 62.68,
+      "text": "la"
     },
     {
-      "start": 60.52,
-      "end": 60.8,
-      "text": "el"
+      "start": 62.68,
+      "end": 63.02,
+      "text": "la"
     },
     {
-      "start": 60.8,
-      "end": 60.8,
-      "text": "לש"
-    },
-    {
-      "start": 62.34,
-      "end": 63.74,
-      "text": "La"
-    },
-    {
-      "start": 63.74,
+      "start": 63.02,
       "end": 64.86,
-      "text": "R"
+      "text": "la"
     },
     {
       "start": 64.86,
-      "end": 65.36,
+      "end": 65.34,
       "text": "la"
     },
     {
-      "start": 65.36,
-      "end": 65.36,
-      "text": "La"
-    },
-    {
-      "start": 65.36,
-      "end": 65.36,
-      "text": "R"
-    },
-    {
-      "start": 65.36,
-      "end": 67.38,
+      "start": 65.34,
+      "end": 66.0,
       "text": "la"
     },
     {
-      "start": 67.38,
-      "end": 67.38,
-      "text": "La"
-    },
-    {
-      "start": 67.38,
-      "end": 67.38,
-      "text": "R"
-    },
-    {
-      "start": 67.38,
-      "end": 72.3,
+      "start": 66.0,
+      "end": 66.24,
       "text": "la"
     },
     {
-      "start": 75.54,
-      "end": 76.94,
-      "text": "Bonne"
+      "start": 66.24,
+      "end": 66.24,
+      "text": "la"
     },
     {
-      "start": 76.94,
-      "end": 78.26,
-      "text": "année"
+      "start": 66.24,
+      "end": 66.38,
+      "text": "la"
     },
     {
-      "start": 78.26,
-      "end": 81.0,
-      "text": "jeun"
+      "start": 66.38,
+      "end": 67.8,
+      "text": "la"
     },
     {
-      "start": 81.0,
-      "end": 81.2,
-      "text": "Pas"
+      "start": 67.8,
+      "end": 67.8,
+      "text": "la"
     },
     {
-      "start": 81.2,
+      "start": 67.8,
+      "end": 68.42,
+      "text": "Sales"
+    },
+    {
+      "start": 69.56,
+      "end": 70.52,
+      "text": "..."
+    },
+    {
+      "start": 77.36,
+      "end": 77.84,
+      "text": "Donc,"
+    },
+    {
+      "start": 77.92,
+      "end": 78.06,
+      "text": "la"
+    },
+    {
+      "start": 78.06,
+      "end": 78.52,
+      "text": "neige,"
+    },
+    {
+      "start": 79.98,
+      "end": 80.46,
+      "text": "qui"
+    },
+    {
+      "start": 80.46,
+      "end": 80.54,
+      "text": "ne"
+    },
+    {
+      "start": 80.54,
+      "end": 80.9,
+      "text": "viendra"
+    },
+    {
+      "start": 80.9,
+      "end": 81.14,
+      "text": "pas"
+    },
+    {
+      "start": 81.14,
       "end": 81.48,
       "text": "ce"
     },
@@ -381,72 +436,62 @@
       "text": "soir."
     },
     {
-      "start": 85.32,
-      "end": 85.92,
-      "text": "Tant"
+      "start": 84.92,
+      "end": 85.88,
+      "text": "Donc,"
     },
     {
-      "start": 85.92,
-      "end": 86.04,
-      "text": "que"
-    },
-    {
-      "start": 86.04,
-      "end": 86.16,
+      "start": 86.06,
+      "end": 86.14,
       "text": "la"
     },
     {
-      "start": 86.16,
-      "end": 86.6,
+      "start": 86.14,
+      "end": 86.62,
       "text": "neige,"
     },
     {
-      "start": 88.78,
-      "end": 89.38,
-      "text": "ou"
+      "start": 88.98,
+      "end": 89.46,
+      "text": "qui"
     },
     {
-      "start": 89.38,
-      "end": 89.54,
-      "text": "tes"
+      "start": 89.46,
+      "end": 89.78,
+      "text": "blanc"
     },
     {
-      "start": 89.54,
-      "end": 90.3,
-      "text": "blancs,"
+      "start": 89.78,
+      "end": 90.44,
+      "text": "de"
     },
     {
-      "start": 90.36,
-      "end": 90.4,
-      "text": "que"
+      "start": 90.44,
+      "end": 91.28,
+      "text": "désespoir,"
     },
     {
-      "start": 90.4,
-      "end": 91.12,
-      "text": "désespoir."
-    },
-    {
-      "start": 93.92,
-      "end": 94.74,
+      "start": 93.68,
+      "end": 94.84,
       "text": "Riste"
     },
     {
-      "start": 94.74,
-      "end": 95.78,
+      "start": 94.84,
+      "end": 95.42,
       "text": "certitude,"
     },
     {
-      "start": 98.2,
+      "start": 97.64,
       "end": 98.8,
       "text": "le"
     },
     {
       "start": 98.8,
-      "end": 99.28,
-      "text": "froid"
+      "end": 99.3,
+      "text": "foie"
     },
     {
-      "start": 99.28,
+      "start": 99.3,
       "end": 99.88,
       "text": "et"
     },
@@ -458,45 +503,55 @@
     {
       "start": 100.0,
       "end": 100.46,
-      "text": "'absence,"
+      "text": "'absence."
     },
     {
-      "start": 102.98,
-      "end": 103.58,
-      "text": "cet"
+      "start": 102.4,
+      "end": 103.56,
+      "text": "C"
     },
     {
-      "start": 103.58,
-      "end": 104.18,
-      "text": "odieux"
+      "start": 103.56,
+      "end": 103.66,
+      "text": "'est"
     },
     {
-      "start": 104.18,
-      "end": 105.38,
-      "text": "silencer,"
+      "start": 103.66,
+      "end": 103.84,
+      "text": "au"
     },
     {
-      "start": 107.24,
-      "end": 108.64,
+      "start": 103.84,
+      "end": 104.14,
+      "text": "Dieu"
+    },
+    {
+      "start": 104.14,
+      "end": 105.28,
+      "text": "silencieux,"
+    },
+    {
+      "start": 107.68,
+      "end": 108.84,
       "text": "blanche"
     },
     {
-      "start": 108.64,
-      "end": 110.04,
-      "text": "solitude,"
+      "start": 108.84,
+      "end": 110.0,
+      "text": "solitude."
     },
     {
-      "start": 110.56,
+      "start": 111.9,
       "end": 112.26,
-      "text": "tu"
+      "text": "Tu"
     },
     {
       "start": 112.26,
-      "end": 112.66,
+      "end": 112.64,
       "text": "ne"
     },
     {
-      "start": 112.66,
+      "start": 112.64,
       "end": 113.28,
       "text": "viendras"
     },
@@ -507,183 +562,133 @@
     },
     {
       "start": 113.68,
-      "end": 114.0,
+      "end": 114.02,
       "text": "ce"
     },
     {
-      "start": 114.0,
-      "end": 114.76,
+      "start": 114.02,
+      "end": 114.72,
       "text": "soir."
     },
     {
-      "start": 115.84,
-      "end": 117.24,
-      "text": "Vous"
+      "start": 116.94,
+      "end": 117.54,
+      "text": "Donc,"
     },
     {
-      "start": 117.24,
+      "start": 117.68,
       "end": 117.96,
-      "text": "vacherez"
+      "text": "la"
     },
     {
       "start": 117.96,
-      "end": 118.52,
-      "text": "vos"
+      "end": 117.96,
+      "text": "neige,"
     },
     {
-      "start": 118.52,
-      "end": 120.6,
-      "text": "désespoir."
+      "start": 117.96,
+      "end": 118.1,
+      "text": "qui"
     },
     {
-      "start": 121.72,
-      "end": 122.28,
+      "start": 118.1,
+      "end": 118.98,
+      "text": "viendra"
+    },
+    {
+      "start": 118.98,
+      "end": 119.26,
+      "text": "pas"
+    },
+    {
+      "start": 119.26,
+      "end": 119.26,
+      "text": "ce"
+    },
+    {
+      "start": 119.26,
+      "end": 119.76,
+      "text": "soir."
+    },
+    {
+      "start": 122.0,
+      "end": 122.3,
       "text": "Mais"
     },
     {
-      "start": 122.28,
-      "end": 122.94,
+      "start": 122.3,
+      "end": 123.0,
       "text": "ton"
     },
     {
-      "start": 122.94,
+      "start": 123.0,
       "end": 123.66,
       "text": "bela"
     },
     {
       "start": 123.66,
-      "end": 124.56,
+      "end": 124.54,
       "text": "neige,"
     },
     {
-      "start": 126.4,
-      "end": 127.8,
-      "text": "impossible"
+      "start": 126.32,
+      "end": 127.02,
+      "text": "un"
     },
     {
-      "start": 127.8,
-      "end": 128.66,
-      "text": "m"
+      "start": 127.02,
+      "end": 128.18,
+      "text": "passible"
     },
     {
-      "start": 128.66,
-      "end": 129.28,
-      "text": "'annège."
+      "start": 128.18,
+      "end": 129.32,
+      "text": "manège,"
     },
     {
-      "start": 129.28,
-      "end": 131.92,
-      "text": "Mais"
+      "start": 130.06,
+      "end": 131.9,
+      "text": "mais"
     },
     {
-      "start": 131.92,
-      "end": 132.72,
+      "start": 131.9,
+      "end": 132.6,
       "text": "ton"
     },
     {
-      "start": 132.72,
-      "end": 133.36,
+      "start": 132.6,
+      "end": 133.32,
       "text": "bela"
     },
     {
-      "start": 133.36,
+      "start": 133.32,
       "end": 134.3,
       "text": "neige,"
     },
     {
-      "start": 136.28,
-      "end": 137.68,
-      "text": "impossible"
+      "start": 135.38,
+      "end": 136.86,
+      "text": "un"
     },
     {
-      "start": 137.68,
-      "end": 138.64,
-      "text": "m"
+      "start": 136.86,
+      "end": 138.0,
+      "text": "passible"
     },
     {
-      "start": 138.64,
-      "end": 139.2,
-      "text": "'annège."
+      "start": 138.0,
+      "end": 139.22,
+      "text": "manège."
     },
     {
-      "start": 143.14,
-      "end": 144.54,
-      "text": "La"
+      "start": 146.32,
+      "end": 147.72,
+      "text": "..."
     },
     {
-      "start": 144.54,
-      "end": 145.94,
-      "text": "la"
-    },
-    {
-      "start": 145.94,
-      "end": 147.0,
-      "text": "la"
-    },
-    {
-      "start": 147.0,
-      "end": 148.06,
-      "text": "la"
-    },
-    {
-      "start": 148.06,
-      "end": 148.16,
-      "text": "la"
-    },
-    {
-      "start": 148.16,
-      "end": 148.76,
-      "text": "la"
-    },
-    {
-      "start": 148.76,
-      "end": 150.42,
-      "text": "la"
-    },
-    {
-      "start": 150.42,
-      "end": 150.62,
-      "text": "la"
-    },
-    {
-      "start": 150.62,
-      "end": 150.7,
-      "text": "la"
-    },
-    {
-      "start": 150.7,
-      "end": 150.88,
-      "text": "la"
-    },
-    {
-      "start": 150.88,
-      "end": 150.9,
-      "text": "la"
-    },
-    {
-      "start": 150.9,
-      "end": 151.38,
-      "text": "la"
-    },
-    {
-      "start": 151.38,
-      "end": 151.4,
-      "text": "la"
-    },
-    {
-      "start": 151.4,
-      "end": 151.42,
-      "text": "la"
-    },
-    {
-      "start": 151.42,
-      "end": 151.42,
-      "text": "la"
-    },
-    {
-      "start": 151.42,
-      "end": 152.08,
-      "text": "la."
+      "start": 175.2,
+      "end": 176.6,
+      "text": "..."
     }
   ]
 }

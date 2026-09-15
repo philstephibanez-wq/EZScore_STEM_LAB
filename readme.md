@@ -190,3 +190,29 @@ NameError: name 'STEM_NAMES' is not defined
 au rendu du lecteur.
 
 Aucun changement algorithmique.
+
+
+## R9.2 — checkpoint validé : chant avant accompagnement
+
+Invariant confirmé par test :
+
+```text
+début du chant ≠ début de l'accompagnement
+```
+
+Le moteur paroles peut commencer à `t=0.0s` même si la première mesure / le
+premier beat détecté commence plus tard.
+
+Les blocs restent purement visuels :
+
+```text
+premier mot chanté à 0.0s
+↓
+enveloppe visuelle du premier bloc étendue jusqu'au chant
+↓
+première mesure détectée plus tard
+```
+
+Aucun timestamp de parole, d'accord, de beat ou de mesure n'est déplacé.
+
+Ce comportement devra être conservé lors de la convergence vers EZScore.
