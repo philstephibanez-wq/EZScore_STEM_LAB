@@ -94,3 +94,22 @@ python -m py_compile .\structure_lab.py
 python -m py_compile .\stem_lab.py
 python -m streamlit run .\stem_lab.py --server.port 8502
 ```
+
+
+## Correctif R8.1
+
+Correction d'un oubli d'import Python dans `stem_lab.py` :
+
+```python
+import re
+```
+
+Cet oubli provoquait :
+
+```text
+NameError: name 're' is not defined
+```
+
+dans la vue `Blocs + paroles`.
+
+Aucun changement algorithmique par rapport à R8.
